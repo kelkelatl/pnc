@@ -1,0 +1,47 @@
+name: Replace "Shannon" with "Joe" in events.md
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  replace_text:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout Repository
+        # Checks out your repository so the workflow can access it
+        uses: actions/checkout@v4
+
+      - name: ✍️ Replace "Shannon" with "Joe"
+        id: replacement
+        run: |
+          # Use sed to find all occurrences of "Shannon" and replace them with "Joe" 
+          # The -i flag edits the file in place
+          # We use a temporary file to ensure compatibility across different sed versions/OSes
+          sed -i.bak 's/Shannon/Joe/g' events.md
+          
+          # Check if the file was modified
+          # Compare events.md with the temporary backup file events.md.bak
+          if cmp -s "events.md" "events.md.bak"; then
+            echo "status=unchanged" >> $GITHUB_OUTPUT
+            echo "No instances of 'Shannon' were found or replaced."
+          else
+            echo "status=changed" >> $GITHUB_OUTPUT
+            echo "Replacement complete. Changes detected."
+          fi
+          
+          # Clean up the backup file
+          rm events.md.bak
+
+      - name: 💾 Commit and Push Changes
+        # This step only runs if the 'replacement' step detected a change
+        if: steps.replacement.outputs.status == 'changed'
+        uses: stefanprodan/git-tools@v1
+        with:
+          # Configuration for the git commit
+          command: |
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add events.md
+            git commit -m "Automated: Replace 'Shannon' with 'Joe' in events.md"
+            git push
