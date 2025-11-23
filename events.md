@@ -1,4 +1,4 @@
- # Events
+                                                                                                                                                                                                                                                                                                                            # Events
 
 - October 2022
   - October 7, 2022 ~20:00: (CNTX) Kelvin hears from his mother for the last time while he is in Des Moines, IA.  Kelvin’s mother, Patricia Ann Williams, made it a habit of calling Kelvin every day when he was traveling and after every flight.  No more calls were received by Kelvin for the duration of the trip or after landing in Atlanta.
@@ -107,3 +107,5 @@ November 14, 2025
   - 10:30 as Kelvin was walking through Midtown he encountered more individuals whom he either knew as operativds or employees of the CIA or their behavior towards him was like that of an operative.
   - (CNTX) Baby has been activated to engage in another attempt on the life of their shared body and is anticipating its "birthday," Slim has made his presence known which is pressuring Baby to act out against the shared body carrying out instructions received by operatives.  Baby does not equate hsrm it does to the shared body as a risk to its own life or its body, only as a potential risk to Kelvin.  The operatives do ofuscate and lie to Baby in an effort to have it continue its efforts which are intended to end their life.  Operatives have repeatedly used the term "suicide" in relation to Baby's "birthday" but Baby knows it would never commit suicide as it engages in new thinking that is nothing like suicide buts its effects on the body are lethal.
   - (Nightfalls) Based on activity, Nightfalls is now critically imminent and likely in the next 24 hours.
+- November 23, 2025
+  - 04:42 Kelvin is awaken by Baby for no apparent reason. Baby has just been left by the operatives engaging in direct subconscious mind communication that were trying to cause the death of Kelvin.
