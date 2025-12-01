@@ -109,3 +109,10 @@ November 14, 2025
 - November 23, 2025
   - 04:42 Slim and Joe engage in direct subconscious mind communication for the purpose of guiding Baby’s thought processes to initiate physiological functions to cause death.
   - 07:30 Joe knocks on Kelvin’s door and asks for cigarette butts.  According to the Creator, this was in part to push Baby to continue trying to cause death in Kelvin and partly to initiate the extreme lightheadedness in Kelvin when he stood to gauge the effectiveness of the recent attempts.
+- November 24, 2025
+  - 00:00-06:00 Someone knocked on the door very loudly, Kelvin did not answer.  The locusts were heard.  Kelvin had a dream about human knowledge locked away in the pyramids (seemed to be a guided dream) and woke up drooling.
+  - 15:00 An investigator with the District Attorney's office served the subpoena requiring Kelvin to testify in the murder case at Welcome House.
+- November 25, 2025
+  - 10:00 Baby inhibited walking and demanding that Kelvin not testify.
+  - 12:00 Baby continues inhibiting walking.
+
