@@ -252,7 +252,7 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 6, 2025 17:00:** After receiving instruction from Slim (delivered without the conscious awareness of Kelvin) to have Kelvin use the restroom, Baby initiated bowel movements While Kelvin was attempting to urinate forcing Kelvin to go to the restroom where several cloaked operatives were waiting in a planned neutralization operation, Baby then inihibited bowel movement causing Kelvin to remain seated on the toilet for approximately 30 minutes while operatives attempted to complete their objectives.
 * **December 6, 2025 19:20:** Kelvin uses Eddie's phone to call "Katrina" and call is answered by voicemail.  Kelvin leaves another message saying he has an emergency.
 * **December 6, 2025 19:22:** Kelvin uses Eddie's phone to send "Katrina" a text message asking for assistance in a situation.
-* **December 7, 2025 11:26:** (CNTX) Calls and text message to "Katrina" for emergency assistance have received no response from "Katrina" or "mom."
+* **December 7, 2025 11:26:** (CNTX) Calls and text message to "Katrina" for emergency assistance have received no response from "Katrina" or "mom."  Patricia Ann Williams and Katrina Duvall were living together in 2022 and were in constant communication, an "emergency" or "situation" would always get a quick response from at least one of them.
 
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
