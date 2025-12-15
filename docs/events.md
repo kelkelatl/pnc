@@ -316,7 +316,8 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 15, 2025 07:25** Kelvin walks through a cloud with an unidentifiable odor or source in the hallway leading to Jay's door, knocks and has to wait about a minute for Jay to open the door.  Purchases the lighters and leaves.
 * **December 15, 2025 (CNTX)** Baby has been referred to numerically as 20 in the past (pre-dating "Baby").
 * **December 15, 2025 07:30** Kelvin takes the purchased lighters to Joe's room.  Ty answers the door (Joe has stepped out) and makes a joke about "Twenty hookers" being in the room, and gestures towards the artwork display which has the spotlight turned on.  The joke was interpreted as a reference to Baby and its peformance throughout the whole encounter.  Joe returns to the room and discusses potentially buying $15 more dollars in crystal methamphetamine with Ty.
-* **December 15, 2025 07:45** A slow moving firetruck drove by Welcome House with sirens on.
+* **December 15, 2025 07:35** Kelvin returns to his room and encounters the smell of flatulence in his room, lays on the bed for a few minutes then turns off the light out of concern for individuals observing or video being made.
+* **December 15, 2025 07:45** A slow moving firetruck drove by Welcome House with sirens on, a possible parade.
   
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
