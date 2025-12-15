@@ -272,6 +272,15 @@ Joe was listening to rap when we arrivedd
 - Baby demanded (during attempt at achieving erection) that it tell Ty about how he needed to take the Cricket phone.  Baby ensures that Ty has the Cricket phone and Ty puts it in his pocket before going to Joe's.
 - Joe plays more German music about a "dirty bomb"
 - Ty mentions staying at "ground zero" tonight.
+- Ty provides all ncrystal methamphetamine, a weed vape and purchases $50 worth of crack cocaine after arriving.  Kelvin had a torch and can of butane and couldn't afford anything else.
+- After buying crack cocaine from Gene and a stem setup from Jay, Ty gave Kelvin the $5 in coins he received in change.
+- CNTX Only IAAD messages this weekend and a longer conversation with Bradford (OpenMinfedAtlanta) which was an extended IAAD conversation.
+- **December 13, 2025 16:36** Kelvin sends Bradford a message with subject "Let's get high!" and content "Let's get high and get you laid."
+- **December 13, 2025 17:52** Bradford responds (to "Let's get high!") "What are odds you can get some black guys to do a train on my hole or one at a time.  And you know I love white trash and blue collar workers."
+- **December 14, 2025 13:15** Bradford sends message with subject "You didn't answer, how many" and content "Guys can we line up to wreck my hole or get higj woun"
+- **December 14, 2025 13:50** Kelvin responds (to "You didn't answer, how many") "I have no idea"
+- **December 14, 2025 16:04** Bradford responds  (to "You didn't answer, how many") "You sure have been out of the world a long time if you cannot bullshit an answer to that question.   That is when you sell the dream… no one has any idea and those kind of nights are hit or miss anyway.    But surely if you didn’t know a few sluts you could have made one or two up for conversation None of us can project or promise but sometimes it is helpful to have the hot guy wink or the doorman smile so the person feels special"
+- 
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
 * James Johnson, Jr. ("Jay") is a resident of Welcome House in room 312
