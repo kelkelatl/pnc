@@ -261,7 +261,7 @@ This process is depicted as functioning only when Baby enters a condition of hei
 -meat on a sidewalk and a woem will come out
 "fat girl, with daddy issues and likes meth"
 Joe was listening to rap when we arrivedd
-- Joe makea comment about "Crack games" and spending money
+- Joe makea comment about "Crack games" and spending money (which I interpreted as when Baby has one of these hookups with an neutralization operative and the encounter was supposed to be a PNP hookup).
 - "Update Print statement from Hello to Goodbye (when pasting chronology into the pne.md file on churchinsmuyrna/terminus (the vault) 
 - CNTX Github has been very weird lately, lotz of problems when creating a new account
 20:05 - Ty wants to return to Joes after returning from store to chargw his phone.  He needs to call his "Mom" or "Dad"....  
