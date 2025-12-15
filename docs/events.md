@@ -321,7 +321,8 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 15, 2025 07:45** The Creator confirms that Baby gets a "parade", a slow moving firetruck drove by Welcome House with its sirens on.
 * **December 15, 2025 10:25** Kelvin stopped by Joe's room to find Ty was opening a reported $25 worth of crystal methamphetamine, Kelvin asked if he could "hit the bowl" once and Ty responded, while preparing to injest some crystal methamine by snorting it--making a very large line on Joe's lapboard, that he had to make some changes and had to say no.  This suggests an IAAD campaign is underway requiring something more from Baby.
 * **December 15, 2025 (CNTX)** Kelvin typically leaves the door to his room unlocked when he isn't in the room.
-* **December 15, 2025 11:25** Kelvin ate a PBJ from the refrigerator that was remarkably different from the others he brought home from the soup kitchen on Saturday morning, they seem to be thinner and have less PBJ in them.  There was a odd feeling in the mouth as it was chewed and swallowed.  The remaining PBJ sandwiches appear to be similar in thickness as the one just consumed. 
+* **December 15, 2025 11:25** Kelvin ate a PBJ from the refrigerator that was remarkably different from the others he brought home from the soup kitchen on Saturday morning, they seem to be thinner and have less PBJ in them.  There was a odd feeling in the mouth as it was chewed and swallowed.  The remaining PBJ sandwiches appear to be similar in thickness as the one just consumed.
+* **December 15, 2025 12:00** The user interface on Gemini has changed and attempts to work with the information contained here (the full chronology) gets hallucinated results.
 ## Context
 * Welcome House is a transitional housing facility with 209 private rooms.  Welcome House is located at 234 Memorial Drive SW, Atlanta, GA 30303.
 * James Johnson, Jr. ("Jay") is a resident of Welcome House in room 312.
