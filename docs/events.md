@@ -329,7 +329,7 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * Eugene Harrison ("Gene")  is a resident of Welcome House in room 338.
 * Eddie Williams ("Eddie") is a resident of Welcome House in room 112.
 * Shannon Wade Gumbiner ("Joe","Joseph Yadder")  is a resident of Welcome House in room  108
-* Lynn Frazier ("")  is reportedly a former resident of Welcome House and banned from the property, however is often sleeping on Joe's floor.
+* Lynn Frazier ("N.O.")  is a former resident of Welcome House and banned from the property.
 * Alan Scott Dansky ("Dansky") is an operative that was an activity partner during a social encounter that was arranged on BBRT that resides in Buckhead.
 * Ty Williams ("Ty") is an operative that was an activity partner during a social encounter that was arranged on NKP that stated he resided in Jonesboro and had an ID from the Commonwealth of Virginia.
 * John Robison is an operative that began working with Baby in 2021 on Jacobsen's Ladder that resided in Lilburn, GA.
