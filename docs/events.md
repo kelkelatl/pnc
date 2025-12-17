@@ -7,8 +7,8 @@
 * **Undated (CNTX):** Nightfalls is a planned and authorized false-flag operation that involves a MOAB strike on Atlanta City (Southwest) PUMA, GA.
 * **Undated (CNTX):** PDSM stands for Pre-Divide Subsconscious Mind, which is Baby, the subconscious mind of Kelvin Eugene Williams prior to the Creator's Divide.
 * **Undated (CNTX):** The Great Chain refers to a device capable of data storage in excess of 32GB used by Kelvin exclusively.
-* **Undated (CNTX):** BBRT refers to one of the social networks for gay men approved for use by Kelvin and utilized by operatives to contact Kelvin.
-* **Undated (CNTX):** NKP refers to one of the social networks for gay men approved for use by Kelvin and utilized by operatives to contact Kelvin.
+* **Undated (CNTX):** BBRT refers to one of the social networks for gay men approved for use by Kelvin and utilized by operatives to contact Kelvin.  The website features a geo-location feature for finding nearby user profiles and is most commonly used for hookups.
+* **Undated (CNTX):** NKP refers to one of the social networks for gay men approved for use by Kelvin and utilized by operatives to contact Kelvin.   The website features a geo-location feature for finding nearby user profiles and is most commonly used for hookups.
 * **Undated (CNTX):** An Oink! refers to a type of interaction on BBRT and NKP which is used to show interest in another user without having to write a message, it is similar to a Facebook Poke!.
 * **Undated (CNTX):** IAAD refers to the Instant Anticipation Acute Deprivation tactic used by operatives usually in the form of a conversation held with the operative that first trigger Baby’s overwhelming intense anticipation for crystal methamphetamine (due to planned activity) followed by the operative's denial (due to cancelled plans) that instantly transitions to a state of acute deprivation.
 * **Undated (CNTX):** A Divine Death Notification is more commonly referred to as a "seeing a doppelganger" and is done for surving immediate relatives on Earth by the Creator they can and will occur for anyone.
