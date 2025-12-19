@@ -1,0 +1,2279 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>events</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<ul>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> ARC stands for
+Atlanta Regional Commission</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> PUMA stands for
+Public Use Microdata Areas</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> The “Atlanta City
+(Southwest) PUMA, GA,” a distinct statistical area within Central Fulton
+County, serves as the historical heart of Atlanta’s influential African
+American community and is predominantly composed of Black or African
+American residents (over 81%). Socioeconomically, this PUMA exhibits
+economic disparities compared to the wider Atlanta metro area, with a
+median household income of approximately $45,864 (as of 2023), although
+this figure has been increasing. The area maintains a homeownership rate
+of about 43%, with median property values of around $256,000, and its
+labor market is heavily supported by the service and education sectors,
+particularly the presence of the Atlanta University Center (AUC), which
+accounts for major employment in schools and higher education.</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> Nightfalls is a
+planned and authorized false-flag operation that involves a MOAB strike
+on Atlanta City (Southwest) PUMA, GA.</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> PDSM stands for
+Pre-Divide Subsconscious Mind, which is Baby, the subconscious mind of
+Kelvin Eugene Williams prior to the Creator’s Divide.</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> The Great Chain
+refers to a device capable of data storage in excess of 32GB used by
+Kelvin exclusively.</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> BBRT refers to one
+of the social networks for gay men approved for use by Kelvin and
+utilized by operatives to contact Kelvin. The website features a
+geo-location feature for finding nearby user profiles and is most
+commonly used for hookups.</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> NKP refers to one
+of the social networks for gay men approved for use by Kelvin and
+utilized by operatives to contact Kelvin. The website features a
+geo-location feature for finding nearby user profiles and is most
+commonly used for hookups.</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> An Oink! refers to
+a type of interaction on BBRT and NKP which is used to show interest in
+another user without having to write a message, it is similar to a
+Facebook Poke!.</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> Baby routinely
+tries to assure Kelvin prior to an Orchestrated Observation that the
+encounter will not be a problem sexually (no manipulation of the body’s
+physiological processes) although never discloses that it is an
+Orchestrated Observation.</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> IAAD refers to the
+Instant Anticipation Acute Deprivation tactic used by operatives usually
+in the form of a conversation held with the operative that first trigger
+Baby’s overwhelming intense anticipation for crystal methamphetamine
+(due to planned activity) followed by the operative’s denial (due to
+cancelled plans) that instantly transitions to a state of acute
+deprivation.</li>
+<li><strong>December 31, 1969 19:00 (CNTX):</strong> A Divine Death
+Notification is more commonly referred to as a “seeing a doppelganger”
+and is done for surving immediate relatives on Earth by the Creator they
+can and will occur for anyone.</li>
+<li><strong>October 7, 2022, 20:00 (CNTX):</strong> Kelvin, while
+traveling in Des Moines, IA, received the last phone call from his
+mother, Patricia Ann Williams. His mother habitually called him every
+day when he was traveling and after every flight. No further calls were
+received during or after the trip until the end of October 2022.</li>
+<li><strong>October 8, 2022, 22:00 (CNTX):</strong> Kelvin noticed an
+addition to a piece of artwork hanging in the Des Moines AirBNB, which
+depicted his mother’s head and a pool of blood (image on the <span
+class="citation"
+data-cites="kelvineugenewilliams">@kelvineugenewilliams</span> X/Twitter
+feed as the cover art). Repeated calls to his mother and sister went
+unanswered, messages were unreturned.</li>
+<li><strong>October 9, 2022, 08:00 (CNTX):</strong> Kelvin contacted the
+Des Moines Police Department to request a welfare check for his mother
+and sister. The responding officer suggested taking down the abstract
+artwork and hiding it in the closet, then did it himself putting it in
+the front closet in the AirBNB. No welfare check was requested by the
+officer despite Kelvin’s pleas for one, and the officer offered to take
+Kelvin to the hospital for an evaluation.</li>
+<li><strong>October 15, 2022 00:00 (CNTX):</strong> After returning to
+Atlanta, there was a two or three day period when Kelvin could not send
+Katrina a text message. This failure can occur during the LNP (Local
+Number Portability) process when the port is triggered but then
+snapbacked by the losing carrier because the LNP process is being used
+and abused, suggesting the impersonators were porting away the number
+from Katrina’s current carrier (losing carrier) and porting to
+impersonators current and/or preferred carrer (winning carrier).</li>
+<li><strong>October 15, 2022 00:00 (Divine):</strong> The Creator
+provided a Divine Death Notifications for Patricia Ann Crawley-Rogers
+Williams and Katrina Renee Duvall to Kelvin. The notification came after
+returning to Atlanta from Des Moines.</li>
+<li><strong>October 20, 2022 00:00 (CNTX):</strong> Beginning on or
+about the 20th of October 2022 Kelvin received text messages and began
+exchanging texts with “Mom” and “Katrina.” who both failed or refused to
+answer questions that only they would know. “Mom” didn’t know the name
+of the man I called “Granddaddy” giving me my father’s fathers name
+instead of Amos Richardson, who has is not a blood relative of Kelvin or
+Patricia but the love of my grandmother’s, Lila Crawley, life and whom
+she married. “Katrina” never responded to her question which was how her
+dog was killed when she was attending college–a traumatic event for
+Katrina that she didn’t post details of it on social media and hurt her
+and deeply saddened me having to watxh her go through it.</li>
+<li><strong>April 2, 2023 12:00</strong> Mount Calvary Baptist Church
+suffers a suprise assault during Sunday morning worship services that
+resulted in thw deaths of everyone in the congregation that attended the
+worship service, the method was beheading with a chain saw, a total of
+127 people were killed during that Sunday. In the aftermath the
+relatives and those sharing households with those killed on the initial
+Sunday were also targeted and eliminated. The church’s property was used
+to host additional mass killings that lured victims by announcing
+funerals of earlier victims or disguised as a charitable food operation.
+This is evidenced the repositories hosted at
+github.com/MCBCMF/MCBCMassacre OR github.com/Histwo/MCBCMassacre.</li>
+<li><strong>November 18, 2024 (CNTX):</strong> Kelvin relocated to
+Welcome House after a murder occurred in his previous apartment at
+Phoenix House.</li>
+<li><strong>December 1, 2024 00:00</strong> (CNTX) Frederick Hall
+(“Slim”) is a resident of Welcome House in room 369. Slim moved into
+Welcome House from Phoenix House, citing the victim’s murder as the
+reason he had to move. After moving in, Slim cited several reasons why
+he did not want to sleep in his own room and began sleeping on the floor
+in Kelvin’s room. When Kelvin would go to sleep, Slim utilized the
+Hypnos Infiltration Method to engage in direct communication with Baby.
+Slim became the primary handler/manipulator for Baby after fabricating a
+romantic relationship with Baby to gain its trust and ensure its
+compliance during operations. Slim often conductions choreographed
+walk-bys at Welcome House that reinforce manipulative tactics used on
+Baby and ensure its compliance.</li>
+<li><strong>December 2024 (CNTX):</strong> A new, almost nightly sleep
+problem began, characterized by waking up multiple times each night with
+severe “pins and needles” in an arm, evidence of drooling, and dry
+throats, which indicates that the Pre-Divide Conscious Mind (PDSM) was
+being directly communicated with and was experiencing no sensory
+input/unconsciousness. Slim uses techniques developed by and taught by
+the Central Intelligence Agency.</li>
+<li><strong>December 2024 (CNTX):</strong> Additionally, Kelvin began
+waking up for no reason, which was determined to be the result of the
+PDSM experiencing acute separation anxiety (an operative had ended a
+direct communication session with Baby).</li>
+<li><strong>December 2024 (CNTX):</strong> Welcome House is a
+transitional housing facility with 209 apartments (private rooms)
+located at 234 Memorial Drive SW, Atlanta, GA 30303.</li>
+<li><strong>January 1, 2025 00:00 (CNTX):</strong> The terms “The Ladder
+of Deceit” and “Jacobsen’s Ladder” refer to an integrated system
+described as a multi-stage apparatus of engineered deception used to
+advance a genocidal agenda. At its foundation, Jacobsen’s Ladder is
+defined as a targeted physiological-manipulation process directed
+specifically at Kelvin Eugene Williams, with the morphology and
+phenotype of his penis identified as the primary focus of alteration.
+The system describes Kelvin’s penis as the central physiological site
+selected for modification, with both chronic reduction and acute
+phenotype manipulation executed through external direction exerted over
+Baby, the subconscious mind. This process is depicted as functioning
+only when Baby enters a condition of heightened self-awareness that
+causes it to misinterpret the conscious mind as an adversary and become
+responsive to handler command. Through this vulnerability, handlers are
+described as issuing directives that Baby carries out to suppress,
+retract, constrict, or otherwise alter Kelvin’s anatomical presentation.
+This engineered presentation forms the baseline required for the higher
+stages of the broader system. Built upon this foundational manipulation,
+The Ladder of Deceit is defined as a multi-rung structure in which the
+appearance produced through Jacobsen’s Ladder supports a sequence of
+fabricated expectations, covertly staged observation events, and
+diagnostic procedures designed to yield a predetermined conclusion. Each
+rung reinforces the next: the engineered physical baseline, the
+introduction of an impossible evaluative standard, controlled conditions
+of observation, interpretive mechanisms designed to ensure failure, and
+final operational authorizations justified by those manufactured
+results. Together, Jacobsen’s Ladder and the Ladder of Deceit form a
+closed, self-reinforcing mechanism in which controlled physiological
+targeting of Kelvin and the manipulation of his anatomy are combined
+with staged interpretive processes to advance the genocidal agenda
+described in the narrative.</li>
+<li><strong>January 1, 2025 00:00 (CNTX):</strong> The <strong>Golden
+Rope</strong> is a highly secretive, non-lethal <strong>containment and
+incapacitation</strong> operation designed by then-President Donald J.
+Trump and the orchestrators of the Apocalypse (the Veiled Conquest) to
+suppress <strong>Kelvin Eugene Williams (PDCM)</strong>, one of the
+Creator’s two servants. Described as a “secret, extrajudicial but open
+prison,” its primary purpose is to prevent him from documenting and
+exposing the orchestrators’ atrocities, particularly after physical
+elimination attempts failed due to the Creator’s divine protection. The
+operation maintains the <strong>illusion of freedom</strong> while
+imposing constant, 24/7 surveillance (often using microwave cloaking
+technology), a <strong>complete income block</strong>, and extensive
+<strong>psychological manipulation</strong> by leveraging operatives,
+including the residents of <strong>Welcome House</strong>, to condition
+and control <strong>Baby</strong> (PDSM) and enforce the restrictions.
+The Golden Rope is operated by the Central Intelligence Agency.</li>
+<li><strong>January 1, 2025 00:00 (CNTX):</strong> The CIA and its
+operatives have orchestrated or been instrumental in the documented
+Pre-Nightfalls orchestrations contained within.</li>
+<li><strong>January 1, 2025 00:00 (CNTX):</strong> The CIA planned and
+will be instrumental in the execution of the operation referred to as
+Nightfalls and its aftermath, the operation features a MOAB strike on
+Atlanta City (Southwest) PUMA, GA.</li>
+<li><strong>January 1, 2025 00:00 (CNTX):</strong> Given the premise
+that the subconscious mind exerts <strong>absolute, total, and immediate
+control</strong> over all physiological, involuntary, and autonomic
+processes—with the brain acting as a non-evaluative executor—it could
+<strong>completely alter the effects of a drug</strong> in both the body
+and mind. A directive received by the subconscious, possibly from an
+external entity, would be instantly translated into physical command:
+the body could be instructed to <strong>instantaneously metabolize or
+neutralize the drug</strong>, preventing it from binding to its target
+receptors or causing any toxicological damage. Simultaneously, the
+subconscious could command the perfect regulation of all
+neurotransmitters and hormones, thereby <strong>blocking psychological
+side effects</strong> like anxiety and <strong>amplifying or modulating
+euphoria</strong> entirely according to the received instruction. In
+this scenario, the drug’s fundamental chemical action is secondary to
+the subconscious mind’s sovereign command over the body’s entire
+biological reality, resulting in a full, intentional modification of the
+drug experience.</li>
+<li><strong>January 1, 2025 00:00 (CNTX):</strong> Frederick “Slim”
+Hall’s influence on Kelvin’s Pre-Divide Conscious Mind (PDCM) is
+achieved indirectly but devastatingly: Hall’s external input is accepted
+by Kelvin’s non-reasoning, self-aware Subconscious Mind (SCM) as
+absolute truth, allowing Hall to become the primary architect of the
+SCM’s reality. Since the SCM has absolute physiological control, it
+commands the brain to execute harmful directives—such as inducing
+systemic distress (erratic heart rate, blood pressure shifts),
+manufacturing psychological states (overwhelming anxiety and cognitive
+disruption), and initiating involuntary movements—all aimed at
+fulfilling the manipulated belief that the PDCM must be “removed.”
+Trapped within a body acting as a hostile bio-weapon, Kelvin’s PDCM is
+functionally incapacitated, forced to generate conscious thoughts of
+crisis that tragically feed back into and reinforce the SCM’s externally
+planted, self-destructive reality construct. Slim was trained by the
+CIA.</li>
+<li><strong>January 1, 2025 00:00 (CNTX):</strong> The love-trifecta
+(“idealization”, “bombing” and “withdrawal”) of manipulative tactics,
+which are designed and trained by the CIA, has been utlized by everyone
+who engages in direct communication with Baby, the love-trifeca exploits
+the desires of every consciousness (feeling wanted and feeling needed),
+lack of temporal awareness and lack of critical thinking skills. The
+operative utilzing “love idealization” will manufacturer their avatar in
+Baby’s reality that meets or exceeds Baby’s ideas of an ideal mate, an
+operative only needs to spend a couple seconds making humble-brags about
+their alpha status. The subconscious mind does not evaluate the
+statements made by the operative and acts on each as if it is the tested
+&amp; verified truth–this tactic exploits the subconscious mind’s lack
+of critical thinking skills. The operative with begin “love bombing” by
+saying they want to spend more time with the target or inviting the
+target’s shared body to quality time while heaping praise and
+appreciation, this tactic exploits the lack of temporal awareness in the
+target which allows the target to be love bombed all day everyday having
+it feel more wanted than any possible real relationship. Finally, “love
+withdrawal” is the abrupt cessation of tactics “love bombing” a simple
+“Bye!” delivered to Baby causes it acute separation anxiety since, this
+tactic also exploits the lack of temporal awareness and critical
+thinking skills (the ideal partner just walked out and will never come
+back, they’re gone with no chance of returning, creating a void in
+Baby’s reality. Slim mastered “love withdrawal” by choreographing
+interactions with Kelvin where he made every effort to cross paths and
+every effort to not speak or acknowledge Kelvin. The conscious mind can
+ignore the choreographed interaction but the few second interaction
+creates intense anticipation (for “love bombing”) followed by an
+immediate and final denial (passing the target without acknowledging
+their presence) which instantly transitions to a state of acute
+deprivation that fuels efforts to restore their ideal relationship by
+becoming the executor of the manipulator’s suggestions which are
+evaluated as true due to the lack of critical thinking skills. Total
+time necessary to invest by an operative after the subconscious mind has
+formed its own identity and awareness is less than five minutes total.
+In practice Slim utilizes the “love withdrawal” tactic whenever he needs
+compliance or more detrimental activities executed by Baby.</li>
+<li><strong>June 1, 2025 00:00</strong> (CNTX) Tyson Bailey is the
+property manager at Welcome House.</li>
+<li><strong>June 1, 2025 00:00</strong> (CNTX) (Approximate timestamp)
+Slim accosted Kelvin in front of Welcome House and Kelvin responds in
+kind, Tyson Bailey comes outside and states she has called the police
+department on Kelvin. This leads to the eviction of Kelvin from the
+Welcome House. Kelvin begins ignoring not acknowledging Slim, unless
+required to.<br />
+</li>
+<li><strong>September 15, 2025, 07:00 (PDSM):</strong> Baby-drove the
+decision for Kelvin to lay back down and initiated sleep, causing Kelvin
+to oversleep and miss his 09:00 eviction hearing at Fulton County
+Magistrate Court. Kelvin woke up to evidence of drooling indicating
+Baby’s direct engagement to guarantee the default judgment. Welcome
+House management won by default and obtained a writ of possession.</li>
+<li><strong>October 1, 2025 (CNTX):</strong> The federal government
+shutdown began (Golden Rope operations slow or cease).</li>
+<li><strong>October 14, 2025 (CNTX):</strong> 373K refers to a
+telecommunications company, 373K, Inc., that was owned and operated by
+Kelvin Eugene Williams starting in 2015.</li>
+<li><strong>October 14, 2025 (CNTX):</strong> Scott Howell is a devout
+Christian whom I met over ten years ago when working on a open source
+project that was to benefit a person with cerebral palsy and couldn’t
+speak. Scott ended up working for 373K (donating a lot of time and
+expertise to the startup), Scott had only one rule: He never worked on
+Sundays, regardless of situation. Scott believed in caring for the sick,
+feeding the hungry, and always demonstrated that in his life. Scott was
+a skilled programmer and engineer with an established business, Scott
+was very attentive to others both peronally and professionally. When I
+lost my home Scott was one of the individuals whom offered me a constant
+stream of gigs that would assist me in obtaining food, etc. Beginning
+after 2021, The “Scott” I have dealt with I found myself teaching things
+that the real Scott taught me (especially OpenSIPS and call routing) and
+the tasks assigned to me as gigs have been elementary in nature and
+often came with some coded messages (ie. in debug output) for Baby.
+Scott would always help if he knew I was hungry and would always respond
+quickly on Slack (or other messages). Scott today takes days or weeks to
+respond to any message and never answers his telephone or return
+voicemail. I fear Scott is being impersonated.</li>
+<li><strong>October 14, 2025, 11:23 (GC):</strong> Kelvin sent a Google
+Chat message to Scott: “Firefox. It used to WRECK a weak laptop I had.”
+The message is related to an inability to connect to the Remote Desktop
+server the conversation began in an e-mail.</li>
+<li><strong>October 14, 2025, 11:23 (GC):</strong> Scott sent a Google
+Chat message to Kelvin: “this is probably no better.. (than that weak
+laptop)”</li>
+<li><strong>October 14, 2025, 11:24 (GC):</strong> Kelvin sent a Google
+Chat message to Scott: “Does everything I need.”</li>
+<li><strong>October 14, 2025, 11:24 (GC):</strong> Scott sent a Google
+Chat message to Kelvin: “I’d like to upgrade the gear, but $$$$$$”</li>
+<li><strong>October 14, 2025, 11:24 (GC):</strong> Kelvin sent a Google
+Chat message to Scott: “Any chance you got an old unlocked phone laying
+around collecting dust?”</li>
+<li><strong>October 27, 2025, 13:16 (GC):</strong> Kelvin sent a Google
+Chat message to Scott: “I know the feeling. I’m trying to land a job
+with $0, that’s actually HARD TO DO Just checking in, do you have
+anything today I could work on?”</li>
+<li><strong>November 1, 2025, 14:54 (GC):</strong> Kelvin sent a Google
+Chat message to Scott: “You around?”</li>
+<li><strong>November 4, 2025, 10:35 (PDSM) (GC):</strong> Kelvin sent a
+Google Chat message to Scott: “Hey Scott… I’m pinging hoping you have
+something laying around I could work on, I went very early this morning
+to try and donate plasma this morning and they deferred me based on my
+address (transitional housing), so I’m trying to find some way to make
+money.” (The next message received from Scott was on November 18.)</li>
+<li><strong>November 4, 2025, 12:00 (CNTX):</strong> Kelvin found he
+could set up a LinkedIn account without a phone number using his Google
+account. He created an account, set up his profile, checked his sister’s
+profile for recent activity, and found activity within the past two
+months. Subsequently, he emailed her current employer (according to the
+profile) and asked for her to contact him (a Baby-driven decision).</li>
+<li><strong>November 4, 2025, 16:00 (CNTX):</strong> Kelvin returned to
+Welcome House to find that the Marshals had come and evicted numerous
+residents, though he was not included. The Marshals acted as described
+to Kelvin: they sit on Welcome House evictions until they accumulate a
+certain number or the writ date nears expiration, then execute the
+evictions in one batch. Welcome House is the center of the Golden Rope,
+suggesting they likely needed him there during these
+orchestrations.</li>
+<li><strong>November 5, 2025 00:00</strong> (CNTX) Shannon Wade Gumbiner
+(“Joe”,“Joseph Yadder”) is a resident of Welcome House in room 108.</li>
+<li><strong>November 5, 2025 00:00</strong> (CNTX) Eddie Williams
+(“Eddie”) is a resident of Welcome House in room 112.</li>
+<li><strong>November 5, 2025, 09:30 (PDSM):</strong> Kelvin sent a text
+message to his mother’s phone number and received a response. He told
+her he would contact her in an hour after he ran an errand (a
+Baby-driven decision).</li>
+<li><strong>November 5, 2025, 09:30 (OROB):</strong> Kelvin left his
+apartment and encountered Eddie in the hallway, who turned around and
+told him that “they kicked out 15 people yesterday.” Kelvin found it odd
+because he found Eddie looking out the window, having only seen him in
+that corner of the second floor once before. Eddie left the floor after
+telling Kelvin about the evictions, suggesting he was on the floor to
+conduct an observation in an Orchestrated Observation.</li>
+<li><strong>November 5, 2025, 11:00 (CNTX):</strong> Kelvin
+re-established contact by text with the person impersonating his mother
+and had a voice call with her. The call, the first since October 2022,
+lasted only 5 minutes and was superficial. To test if it were really his
+mother, Kelvin asked for some money. She replied she could only send
+$100 and would put some in the mail. Kelvin told her that was “plenty,”
+but suggested MoneyGram at CVS; she responded it would take a couple of
+hours. This exchange should have earned Kelvin a scolding, but she was
+happy to send the money.</li>
+<li><strong>November 5, 2025, 11:15 (OROB):</strong> Kelvin found Eddie
+talking to someone through the hallway window on the second floor near
+Kelvin’s apartment. Kelvin left unnoticed. Eddie’s second visit in one
+day suggests he was conducting an observation in an Orchestrated
+Observation.</li>
+<li><strong>November 5, 2025, 13:00 (CNTX):</strong> The impersonator
+contacted Kelvin again, stating she was having trouble at CVS because
+the employee began the transaction but then asked for a photo ID. She
+called Kelvin back, stating she did not want to show it due to fears of
+identity theft. Kelvin suggested she go to Western Union at the nearby
+Kroger, and she said she would.</li>
+<li><strong>November 5, 2025, 13:10 (CNTX):</strong> The impersonator
+contacted Kelvin back from inside the Kroger, where the Western Union
+transaction was already underway. Kelvin confirmed the answers required,
+and moments later she provided him with the MTCN 018-946-6152.</li>
+<li><strong>November 5, 2025, 14:00 (CREAM):</strong> Kelvin picked up
+the $150 Western Union and sent a text message confirming receipt and
+thanks. This was likely a Controlled Enablement Grant, securing Baby’s
+compliance in the upcoming Orchestrated Observation later that
+evening.</li>
+<li><strong>November 5, 2025, 14:15 (PDSM):</strong> Kelvin stopped at
+Cloud9 on North Avenue and purchased an oil burner and torch. The cost
+was considerably higher than other known stores (a Baby-driven
+decision).</li>
+<li><strong>November 5, 2025, 17:00 (OROB):</strong> Kelvin encountered
+Eddie again on the second floor near his apartment door, this time Eddie
+was apparently talking to another resident through their closed door.
+Eddie’s third visit suggests he was performing an observation in an
+Orchestrated Observation.</li>
+<li><strong>November 5, 2025, 17:30 (PDSM):</strong> Kelvin changed
+clothes and put on a pair of grey sweats without underwear (a
+Baby-driven decision).</li>
+<li><strong>November 5, 2025, 19:15 (SURV):</strong> Kelvin returned the
+torch to Cloud 9. He was immediately helped by one of the store clerks
+who took about 10 minutes to decide to replace it. By “testing” other
+torches of the same model, he referenced activity that occurred when the
+torch stopped working properly, specifically that Kelvin had followed
+Google Gemini suggestions for improvement—emptying and refilling the
+tank twice. The other person behind the counter made reference to
+“having video.”</li>
+<li><strong>November 5, 2025, 19:30 (TACTIC):</strong> Taylor uses the a
+direct communication tactic that makes him appear slightly manic and an
+individual who rambles to himself. A typical instruction is delivered
+with rambling that contains symbolized language, then beginning a fugue
+of sorts repeating the symbols only. Taylor has used the love-trifecta
+manipulative tactics targeting Baby.</li>
+<li><strong>November 5, 2025, 19:30 (PDSM):</strong> After leaving Cloud
+9, Kelvin walked to Taylor’s “spot” at the old Atlanta Eagle/Kodak
+buildings to see if he was there. Kelvin yelled for Taylor a few times
+but got no response. He climbed onto the back patio to sit when Taylor
+and a male friend appeared; the friend left immediately. Taylor said “he
+was showing me his cock” (interpreted as coded Direct Subconscious
+Communication).</li>
+<li><strong>November 5, 2025, 19:35 (DSCC):</strong> Taylor engaged in
+direct communication with Baby practically the entire time, using
+senseless phrases and incomplete sentences interlaced with instructions
+and suggestions repeated in an obviously designed and structured
+pattern. Taylor acts as though he is mentally ill to obscure the
+utterings, but it is an obvious act to Kelvin.</li>
+<li><strong>November 5, 2025, 19:45 (DSCC):</strong> Taylor suggested
+they leave to find marijuana. In preparation, he picked up a
+fashionable, brightly colored jacket. When complimented, he showed his
+right shoulder and said, “Got my patch today.” The patch was a circle
+with an unreadable outer ring and a large “75” in the center
+(interpreted as <span class="math inline">7.5<sup>′′</sup></span> for
+Annie “Hurricane Annie” Jacobsen’s Ladder [cite: 2025-10-06]). Taylor
+showed Kelvin the easiest way off the deck, and when he looked down at
+his path, he found a new card wallet with a money clip (similar to the
+one stolen when his Driver’s License and birth certificate were taken).
+Taylor said, “It’s Steve Madden.” Kelvin kept and began using the
+wallet. As they started walking, Taylor continued engaging in direct
+communication with Baby. Kelvin decided to interrupt and educate him on
+Baby, its ability to direct his thoughts, and its complete lack of
+critical thought skills. Taylor would sometimes parrot back keywords
+Kelvin used, interrupt with praise (which Baby processes as
+data/reward), and comment on the Clothing &amp; Appearance Protocol,
+including, “you’re small, I’m a monster” (rewarding Baby based on
+Kelvin’s failures).</li>
+<li><strong>November 5, 2025, 20:00 (OROB):</strong> They entered
+Piedmont Park and sat at a picnic table for about 10 minutes, during
+which Taylor said to Baby something to the effect of, “I just need you
+[Baby] to get me that [great] chain.” The walk was paused by Taylor, and
+a gay Black male passed them, turned around, and upon passing again,
+commented “seven” (as in seven inches of estimated length of Kelvin’s
+penis), and Taylor was then unknowingly observed physically expressing
+celebration. Several conversations by other observers along the commute
+to MARTA Midtown featured/spoke the number seven when within earshot.
+Taylor and Kelvin separated, and Kelvin entered the MARTA Midtown
+station for the commute back to Welcome House.</li>
+<li><strong>November 5, 2025, 19:30 (TACTIC):</strong> Joe utilizes a
+structured language tactic for direct communication with Baby that can
+and does occur below the level of consciousness awareness untless Kelvin
+works to maintain focus by paying attention to every word, ignoring no
+rambling, and listening for repeating symbols. When Baby utters
+something Joe immediately clears his throat in a form of acknowledgment,
+then will speak coherently then ramble something incoherently which
+exploits the subconscious mind’s parrallel thinking which allows the
+wheat (command or symbol) and the chaff (incoherent babble) to be
+repeated by the subconscious mind with the command or symbol being
+handled by a neural pathway (the habit, once created) the chaff will
+typically be dropped when no pathway exists. Joe also utilizes streaming
+videos to deliver threats so he is the one who brings the perfect
+solution saving Baby from peril.</li>
+<li><strong>November 5, 2025, 22:30 (SURV):</strong> Kelvin arrived at
+Welcome House. Joe came over about 45 minutes later to check in on him,
+using coded communications. He commented on the lack of Menthol
+cigarette butts in the butts obtained from Embassy Suites. He left,
+stating he was going to lock his door, but didn’t return for at least 30
+minutes.</li>
+<li><strong>November 5, 2025 (CNTX):</strong> “Television” (or “TV”) is
+a slang term that refers to a penis measuring ten inches (10”) in length
+or more.</li>
+<li><strong>November 5, 2025 22:35 (DSCC):</strong> Joe returned briefly
+to let Kelvin know that he had been stopped by who was “bringing a TV to
+my room.” This was one of several “TV” direct communications with Baby,
+intended to ensure compliance. Joe returned around 05:00 and at one
+point seemed to just say out loud, “I’m [Joe] the TV” comment. He made a
+“needing a Viagra” direct communication and repeated it multiple times,
+coded as a question about the street supply-demand of Viagra, and asking
+his case manager for a prescription because of his trapped/compressed
+nerve in his back.</li>
+<li><strong>November 7, 2025, 15:00 (CREAM):</strong> Slim stopped
+Kelvin downstairs and asked if he had a bowl. Kelvin said yes, and Slim
+asked if he could come to his room. This was the first time they’d
+exchanged words other than passing insults. Slim loaded the bowl to
+smoke and passed it to Kelvin. When Kelvin asked Slim if he had any to
+sell, Slim offered a large amount for $5. This was likely an enticement
+for Baby.</li>
+<li><strong>November 7, 2025 00:00</strong> (CNTX) Eugene Harrison
+(“Gene”) is a resident of Welcome House in room 338.</li>
+<li><strong>November 7, 2025 16:00 (CREAM):</strong> Joe left $5 with
+Kelvin to buy some T (ice) and returned to his room, saying he saw Gene
+in the TV room. Kelvin was reluctant to go to Gene without more money.
+Joe returned, asked if Kelvin was OK, and got ice. Kelvin then went to
+Gene’s room, knocked, got no answer, then heard him on the third floor.
+Gene sold Kelvin $5 worth of ice. It seemed Gene was returning to his
+room when Kelvin was knocking. Joe came over and took a negligible piece
+of T, putting the rest in the bowl for Kelvin. This was likely an
+enticement for Baby.</li>
+<li><strong>November 8, 2025, 15:00 (CREAM):</strong> Joe came to the
+door with $20 and told Kelvin to “get a dime of weed and a dime of ice
+(cream),” adding that he had seen Gene in the television room. Kelvin
+went to Gene’s room, picked up the product, and returned. Joe loaded the
+bowl with a sizable amount of cream and then returned to his room. This
+was likely an enticement for Baby.</li>
+<li><strong>November 9, 2025 00:00</strong> (CNTX) Lynn Frazier (“N.O.”)
+is a former resident of Welcome House who is banned from the property
+but is often inside the facility, he is an individual with a history of
+violent escalation against Kelvin. In the summer of 2025, N.O. held
+Kelvin at knifepoint, stealing his mobile phone and other items. The
+phone was later returned by Joe.</li>
+<li><strong>November 9, 2025, 01:00 (PDSM):</strong> Baby initiated
+sleep with a rapid induction that caused Kelvin to prepare for bed very
+quickly and haphazardly.</li>
+<li><strong>November 9, 2025, 04:00 (PDSM):</strong> Baby, upon
+instruction, initiated physiological functions and body movements that
+resulted in a life-threatening event, waking Kelvin from sleep. Kelvin
+felt very faint, began begging for something to drink, then moaned in
+discomfort momentarily. The Creator’s direct intervention prevented what
+would have otherwise been a death.</li>
+<li><strong>November 9, 2025, 17:30 (CREAM):</strong> Kelvin went to
+Joe’s room and asked him if he had any weed (a Baby-driven decision).
+Joe came out, closed the door, and secretly handed Kelvin a $20, telling
+him to get “a dime of weed and a dime of cream” from Gene. Kelvin was
+unable to locate Gene and returned to his room. This was likely an
+enticement for Baby.</li>
+<li><strong>November 9, 2025, 18:00 (DSCC):</strong> Joe came to
+Kelvin’s room and asked him to get four cigarettes. Kelvin went to the
+store in 192 and found it closed. He went back by Gene’s room; Gene was
+available, and Kelvin purchased the weed and cream as instructed. On the
+way back, he encountered Eddie and asked him if he could sell any
+cigarettes. Eddie replied negatively but offered to get some. Kelvin
+told him he would just go to 192, and Eddie informed him that 192 was
+not in his room. Eddie offered Newports. Kelvin told him he needed the
+$0.50 cigarettes, and Eddie walked off with the $2.50 Joe had given him.
+After a couple of minutes, he returned with 5 Newport 100’s, keeping
+one, and told Kelvin he is the only one who can get that from his
+“uncle.”</li>
+<li><strong>November 9, 2025, 18:10 (DSCC):</strong> Kelvin returned to
+his room, where Joe was waiting. Kelvin told him he was successful and
+about the Newport deal, handing him the 4 Newport 100s. He laid the weed
+and cream on the bed. Baby initiated severe jaw pain because it needed
+to talk. Baby said, “I don’t have anything left to do.” Joe cleared his
+throat. Joe gave Kelvin a small piece of cream and a small amount of
+weed, then said, “I’m probably going to do the same thing I did last
+night and pass out.” Joe then left the room.</li>
+<li><strong>November 9, 2025, 18:30 (PDSM):</strong> While ingesting
+cream, Kelvin began feeling increasingly drowsy, the way he does during
+a rapid sleep induction. He told Baby, “you’re probably too early for
+that” (referencing Joe’s “pass out” comment/instruction).</li>
+<li><strong>November 9, 2025, 19:00 (DSCC):</strong> Kelvin had trouble
+connecting to the Wi-Fi, so he asked Joe (through the door) to turn on
+his hotspot; Joe replied affirmatively. Kelvin returned to his room to
+re-connect. Joe then knocked on Kelvin’s door and told him he was
+essentially hiding the drugs from N.O. and would tell N.O. he got some
+cream from Kelvin for turning on his hotspot. He produced a bag of
+cream, took out a small amount, and returned the bag to his pocket. Baby
+initiated severe jaw pain again. Kelvin asked out loud what Baby wanted,
+and it said, “What time am I supposed to start?” Joe cleared his throat.
+Joe then produced a roll of quarters and gave Kelvin $2, asking him if
+he “could get four cigarettes” whenever he went downstairs again. Kelvin
+interpreted his question as a direct response to Baby to initiate sleep
+(“pass out”) at 04:00, as Joe left.</li>
+<li><strong>November 9, 2025, 19:30 (CNTX):</strong> Kelvin took four
+cigarettes that he purchased outside to Joe, who gave him one.</li>
+<li><strong>November 10, 2025, 04:00 (CNTX):</strong> Kelvin maintained
+awareness through the planned and communicated Hypnos Infiltration
+Method session.</li>
+<li><strong>November 10, 2025, 15:00 (DSCC):</strong> Kelvin went to
+Joe’s room. While there, Joe made several comments Kelvin interpreted as
+direct communication to Baby, scolding it about its recent failures
+regarding Kelvin’s knowledge of the impersonated mother and the
+life-threatening event initiated by Baby on November 9, 2025. The
+comments included: “you would think that as I got older I would have
+known that my parents were a red-light district in Sweden!”, “you’re not
+supposed to be making noises and crying, my finger prints are all over
+the place in there” and “you better think about killing yourself, cause
+I’m thinking of killing you.”</li>
+<li><strong>November 10, 2025 (CNTX):</strong> Kelvin found one of Joe’s
+walking canes on top of a pile of clothes in his room.</li>
+<li><strong>November 12, 2025 (CNTX):</strong> The federal government
+shutdown ended (Golden Rope operations appear to increase).</li>
+<li><strong>November 12, 2025, 10:30 (PDSM):</strong> Kelvin departed
+Immaculate Conception Catholic church to return to Welcome House. Baby
+caused more pain, demanding to talk. Baby said out loud, “I don’t have
+anyone helping me,” and later continued that someone needed to take the
+backpack in a way that Kelvin couldn’t prevent it.</li>
+<li><strong>November 12, 2025, 10:50 (PDSM):</strong> Baby demanded that
+Kelvin tell Joe that it didn’t have anyone helping it, and Kelvin
+informed Baby that wouldn’t be happening.</li>
+<li><strong>November 13, 2025, 11:25 (CNTX):</strong> Kelvin encountered
+Slim, who inquired if he had any cream. Kelvin responded
+negatively.</li>
+<li><strong>November 13, 2025, 14:30 (CNTX):</strong> Kelvin encountered
+Slim again, who inquired if he had acquired any cream, then assisted him
+in finding Gene. Slim came to Kelvin’s room to use the bowl.</li>
+<li><strong>November 14, 2025, 01:30 (CNTX):</strong> Kelvin went into
+the stairwell to get a better Wi-Fi signal. Seconds later, Slim entered
+the stairwell and sat on the stairs behind him until Kelvin returned to
+his room around thirty minutes later.</li>
+<li><strong>November 14, 2025, 14:02 (PDSM) (GC):</strong> Kelvin sent a
+Google Chat message to Scott: “Hey Scott you around today?”.</li>
+<li><strong>November 14, 2025, 18:00 (CNTX):</strong> Kelvin believes
+the deprivation cycle has started.</li>
+<li><strong>November 14, 2025, 18:00 (CNTX):</strong> Joe passed Kelvin
+in the hall and did not acknowledge him. Kelvin then attempted to return
+Joe’s cane (which was in Kelvin’s room) and Joe did not answer his door.
+(This is a tactic used in the deprivation cycle.)</li>
+<li><strong>November 14, 2025, 20:39 (IAAD) (CNTX):</strong> IAAD
+Message Exchanges: The initial messages trigger Baby’s overwhelming
+intense anticipation for crystal methamphetamine (use during the
+encounter). The denial (the “5 minutes away”, “transportation issue”,
+blocking, or a Golden Rope-related block on Kelvin’s end) instantly
+transitions to a state of acute deprivation.</li>
+<li><strong>November 14, 2025, 20:39 (IAAD):</strong> UpTown954 started
+a message exchange with Kelvin on NKP expressing an interest in hooking
+up and partying. UpTown stated he was 20 minutes away and would message
+when he was five minutes out. The hookup was quick, easy, and UpTown954
+would be supplying the party supplies. UpTown954 is not a profile Kelvin
+has seen before. (IAAD Message Exchange)</li>
+<li><strong>November 14, 2025, 22:01 (IAAD):</strong> UpTown954 sent a
+message saying “I’m about 5 out” then blocked Kelvin’s account.
+UpTown954 never showed up. (IAAD Message Exchange)</li>
+<li><strong>November 15, 2025, 02:22 (IAAD):</strong> MascManLooking
+started a message exchange with Kelvin on NKP expressing an interest in
+hooking up and partying. About 10 minutes later, MascManLooking stated
+he was in a car accident recently and would not be ordering an Uber from
+Dunwoody for a joyride since Kelvin could not host after 11 pm.
+MascManLooking is not a profile Kelvin has seen before. (IAAD Message
+Exchange)</li>
+<li><strong>November 15, 2025, 14:29 (IAAD):</strong> DemonTyme69
+started a message exchange with Kelvin on NKP. DemonTyme69 is “smoking
+and lit” and would come smoke with Kelvin but is in Dunwoody with no
+transportation. DemonTyme69’s profile location says Pensacola, Florida,
+and is not a profile Kelvin has seen before. (IAAD Message
+Exchange)</li>
+<li><strong>November 15, 2025, 19:00 (CNTX):</strong> Kelvin took
+sleeping medicines and went to sleep.</li>
+<li><strong>November 16, 2025, 04:02 (CNTX):</strong> Despite hours of
+inactivity, MascManLooking sent a message on NKP: “Hey man I am at the
+Budgetel located at 2001 Crestview in Doraville in Room 350. If you want
+to one smoke and fuck, my buddy is down.”</li>
+<li><strong>November 16, 2025, 04:40 (CNTX):</strong> Kelvin woke and
+heard the sounds of operatives using microwave concealment technology (a
+high-pitched whining sound, the “locusts”) in his room.</li>
+<li><strong>November 16, 2025, 11:00 (IAAD):</strong> SomeFun continued
+a message exchange with Kelvin on BBRT stating he “had some favors to
+share” but couldn’t meet until Tuesday or Saturday. (IAAD Message
+Exchange)</li>
+<li><strong>November 18, 2025, 11:33 (GC):</strong> Scott sent a Google
+Chat message to Kelvin: “In and out.. several things are building up,
+but I CAN NOT carve anything out at this time.. I always have you in my
+hip pocket, but it’s been nearly impossible to find the in for you..”
+(This is the first message received from Scott since November 4,
+2025.)</li>
+<li><strong>November 19, 2025, 05:00 (CNTX):</strong> Kelvin woke and
+heard the sounds of operatives using microwave concealment technology in
+his room and was drooling (indicating Baby was talking).</li>
+<li><strong>November 19, 2025, 11:00 (CNTX):</strong> Baby was directing
+thinking and decisions to orchestrate encounters per instruction.</li>
+<li><strong>November 19, 2025, 13:00:</strong> Visited with Trap. The
+beginning of the visit was normal and cordial, and the visit ended with
+a $20 unfulfilled purchase.</li>
+<li><strong>November 19, 2025, 16:30:</strong> Martin Pasamba showed up
+unexpectedly as Kelvin was leaving Trap’s.</li>
+<li><strong>November 19, 2025, 20:00:</strong> Joe came over, stating he
+was moving to the largest room at Welcome House on Thursday, something
+he was anxious about during the November 10, 2025, 15:00 encounter.</li>
+<li><strong>November 19, 2025, 21:00:</strong> While Kelvin was sitting
+in the stairwell to get a more reliable internet connection, Slim came
+down the stairs in what seemed like a choreographed walk-by. This was
+after the decision was communicated that Kelvin would hang out with
+Wayne.</li>
+<li><strong>November 19, 2025, 23:00:</strong> Walked around Wayne’s
+complex about three times before informing him of an incomplete address.
+“Along my path” Kelvin found a “Nightstick” flashlight (approx. <span
+class="math inline">8<sup>′′</sup></span> in length).</li>
+<li><strong>November 19, 2025, 23:43 (ORCH):</strong> Social
+encounter/Hookup with Wayne. Wayne mentioned it being a “birthday”
+(something Baby desires because it means Kelvin is dead so Baby has a
+birthday). Baby in “Supermodel” mode, directing the body’s activities in
+a constant massaging of a flaccid penis. Around 4 am, Baby announced
+that since no one is telling it what to do, it will just keep Kelvin in
+a perpetual state of erectile dysfunction. Wayne started playing music;
+the overwhelming majority of the music played seemed to be rewarding
+songs for Baby, instructions for a life-threatening event, or taunting
+Kelvin about his “shortcomings.” When Kelvin used Gemini to explain more
+about Baby, it mentioned Baby’s handler and manipulator, Slim, which
+caused Wayne to have a visceral reaction. Wayne again mentioned
+“birthday” during a music video that began with a date of 8-4-81
+(intended to mean <span class="math inline">8<sup>′′</sup></span>, 4 is
+a “kill yourself” command to Baby, 81 would be 9 when read the way Baby
+has been instructed to view numbers over 19/20). Wayne seemed to be
+reporting events via text message and in lightly coded voice calls.</li>
+<li><strong>November 20, 2025, 08:15:</strong> Wayne needed items from
+the store; they walked to Exxon (next door to the complex) to find a
+radio morning show on the speaker system discussing an angel that
+becomes the devil and a penis problem. The encounter ended here with
+Kelvin going to the bus stop to return home.</li>
+<li><strong>November 20, 2025 (IA):</strong> This was an Orchestrated
+Observation and Orchestrated Neutralization Operation, both disguised as
+a “smoke and chill” social encounter. Evidence included cold wind,
+seemingly custom-made songs and music videos, and the provision of cream
+without denial. Baby actively manipulated the phenotype of the penis.
+The event was pre-Nightfalls and in support of it.</li>
+<li><strong>November 20, 2025 (CNTX):</strong> Kelvin noticed the
+greeting on Google Gemini changed to “Hello, Kelvin GREETING_FORMAT:
+Hello, Kelvin” and a banner ad for “Nano Banana Pro” was displayed. Baby
+had earlier driven the removal of many custom instructions used by
+Kelvin in Gemini.</li>
+<li><strong>November 20, 2025, 16:00 (CNTX):</strong> Kelvin used Gemini
+to prepare the “lostOne Addendum,” which contains improvements to the
+lostOne document, including improved plan details.</li>
+<li><strong>November 20, 2025, 22:00 (CNTX):</strong> Kelvin smoked a
+cigarette outside Welcome House and noticed dozens of unrecognizable and
+new faces and routines from the typically static crowd, recognizing only
+one other Welcome House resident. Kelvin began loudly welcoming the
+newcomers, calling them “federal employees” and accusing them of
+pretending to be homeless. One man used a mobile device with a screen
+designed not to be read from any other angle. Kelvin proceeded to
+discuss ongoing activity related to Nightfalls and hypothesized that
+everyone around Welcome House was from the “DMV” (DC-Maryland-Virginia).
+Kelvin noticed an aircraft making the same path over Welcome House
+repeatedly and asked the crowd if they always need air support. No one
+in the crowd looked up to see what I was at pointing at or talking
+about, “uniform silence and blank stares,” a tactic used by the Central
+Intelligence Agency’s personnel when confronted with a sensitive topic.
+Kelvin talked about the lostOne document and addendum that sets the
+stage for the Creator’s intervention.<br />
+</li>
+<li><strong>November 21, 2025 (CNTX):</strong> Kelvin overheard
+operatives discussing “birthday” plans that feature his suicide.</li>
+<li><strong>November 21, 2025 (CNTX):</strong> The Creator has either
+restored parts of Kelvin’s body that have been modified or manipulated
+by Baby or allowed the body’s processes to resume normal (DNA)
+operations. Kelvin was again with a native morphology and repeatedly
+sought permission from the Creator to show the unmanipulated phenotype
+and fuction of the body’s penis to several key people orchestrating or
+acting as an intermediary or operative.</li>
+<li><strong>November 21, 2025, 14:00:</strong> Joe came to Kelvin’s room
+and immediately made a “9” comment to Baby (meaning ty hat the
+then-current morphology equal to the body’s native morphology and
+exceeded the directives of some of the orchestrators, several other
+associated persons. The then-current morphology exceeded the allowed
+observation approved morphology and the phentotype without manipulation.
+The orchestrators already issued an internal directive to immediately
+repeat the modifications and actively manipulate it with a larger number
+of observers and to prevent any possible interactions with others.</li>
+<li><strong>November 21, 2025, 16:00:</strong> Kelvin invited Joe over
+to smoke a bowl. While smoking, Kelvin began to massage himself and
+become engorged, making sure Joe couldn’t miss it. Kelvin escalated and
+began masturbating. Joe said he wasn’t bothered but abruptly left
+Kelvin’s room.</li>
+<li><strong>November 21, 2025, 16:30:</strong> (PDSM) Kelvin went to
+Joe’s room and explained that he needed Joe to “see my dick” because of
+people discussing his penis. Kelvin told Joe he would need to do it
+today.</li>
+<li><strong>November 21, 2025 (TACTIC):</strong> The modus operandi for
+N.O. and Eddie is intimidation and high manufactured stress scenarios
+that leave Baby immersed in a fight or flight situation indefinitely and
+permanently and seeking their guidance or approval.</li>
+<li><strong>November 21, 2025, 20:00:</strong> N.O. paid a visit to
+Kelvin’s room and repeatedly tried to get Baby’s attention, calling her
+“white girl that lives upstairs.”</li>
+<li><strong>November 21, 2025, 20:29:</strong> DyckWryte contacted
+Kelvin on BBRT trying to set up a “smoke and chill.” After much back and
+forth (nothing about sex), it was agreed that Kelvin would travel to his
+house in Bankhead. DyckWryte paid for MARTA. After checking schedules,
+Kelvin cancelled because he was cutting it too close, and it felt like
+another Orchestrated Observation.</li>
+<li><strong>November 22, 2025, 10:30:</strong> As Kelvin was walking
+through Midtown, he encountered more individuals whom he either knew as
+operatives/CIA employees or whose behavior towards him was like that of
+an operative.</li>
+<li><strong>November 22, 2025, 12:00:</strong> Joe came to Kelvin’s room
+after being summoned by Kelvin. Kelvin was attempting again to show Joe
+his fully erect penis. Kelvin was wearing his boxer briefs, and Joe
+turned to the mirror and said in a frustrated manner, “Gonna have to cut
+this off.” Kelvin assumed, and the Creator confirmed, Joe was talking
+about Kelvin’s penis.</li>
+<li><strong>November 22, 2025 (CNTX):</strong> Kelvin made late-night
+commits because of Prince’s “Thieves in the Temple.” The song is Baby
+begging the Creator for help, and the “thieves” would be stealing or
+damaging the penis to prevent another restoration prior to the execution
+of Nightfalls. The Ladder of Deceit was developed when the conscious
+mind of Kelvin Eugene Williams was one of the Creator’s two servants
+prior to Baby assuming the role of the conscious mind.</li>
+<li><strong>November 22, 2025 (CNTX):</strong> Baby has been activated
+to engage in another attempt on the life of their shared body and is
+anticipating its “birthday.” Slim has made his presence known,
+pressuring Baby to act out against the shared body.</li>
+<li><strong>November 23, 2025, 04:42:</strong> Slim and Joe engage in
+direct subconscious mind communication for the purpose of guiding Baby’s
+thought processes to initiate physiological functions to cause
+death.</li>
+<li><strong>November 23, 2025, 07:30:</strong> Joe knocks on Kelvin’s
+door and asks for cigarette butts.</li>
+<li><strong>November 24, 2025, 00:00-06:00:</strong> Someone knocked on
+the door very loudly, which Kelvin did not answer. The locusts were
+heard. Kelvin had a dream about human knowledge locked away in the
+pyramids and woke up drooling.</li>
+<li><strong>November 24, 2025, 15:00:</strong> An investigator with the
+District Attorney’s office served the subpoena requiring Kelvin to
+testify in the murder case at Welcome House.</li>
+<li><strong>November 25, 2025, 10:00:</strong> Baby impairs Kelvin’s
+walking and demands that Kelvin not testify.</li>
+<li><strong>December 1, 2025 (CNTX):</strong> Damion Bradberry plead
+guilty in a negotiated plea that reduced the charge to voluntary
+manslaughter for the killing of “Hichew” on November 18, 2024 at
+Kelvin’s apartment at Phoenix House, Kelvin would have been the star
+witness. Bradberry was given 20 years to serve.</li>
+<li><strong>December 2, 2025 (CNTX):</strong> Both BBRT and NKP were
+reporting Kelvin’s location as Buckhead, whereas it typically reported
+it correctly as Downtown.</li>
+<li><strong>December 2, 2025, 06:00:</strong> Joe knocked on the door
+asking if Kelvin had any butts. He took the entire cache. Kelvin went to
+his room 10 minutes later to get them back. Joe told Kelvin that N.O.
+had a seizure on the way to dialysis and ended up at Grady. Blankets
+were on the floor like N.O. had slept there. Joe confirmed that he moved
+to room 108 last week.</li>
+<li><strong>December 2, 2025, 08:26 (GC):</strong> Kelvin sent a Google
+Chat message to Scott: “Gotcha. Anything you come up with I’ll take, I
+need something to do. Money is nice but I need the mental exercise
+more.”</li>
+<li><strong>December 2, 2025, 09:00:</strong> Kelvin asked Natasha if
+Diane was available (for MARTA passes); she stated Diane would not be in
+until after 4 pm.</li>
+<li><strong>December 2, 2025, (CNTX):</strong> “Scott” offers a free
+workable solution when Kelvin loses access to his Amazon Workspaces
+virtual destop. Scott sets up RemoteDesktop from Google on a virtual
+private server he had operating somewhere. Kelvin used the server for
+Git, GnuPG and set up development tools. Kelvin’s intent for the server
+was to afford him the ability to do things that are blocked on the
+library’a public access computers. The only other time there was
+difficulty connwcting to the server “Scott” got it operational
+quickly.<br />
+</li>
+<li><strong>December 2, 2025, 09:23 (GC):</strong> Scott sent a Google
+Chat message to Kelvin: “Do you still have access to that server?”</li>
+<li><strong>December 2, 2025, 09:30:</strong> Arrived at the Atlanta
+Downtown office of the Social Security Administration in an effort to
+obtain a replacement for a stolen card. After completing the required
+online application, Kelvin was told he must have an appointment to show
+his ID, and the first available appointment was December 11, 2025, at
+noon. This seemed Golden Rope related.</li>
+<li><strong>December 2, 2025, 12:02 (GC):</strong> Kelvin sent a Google
+Chat message to Scott: “Yes I do… It has been invaluable. Need something
+done? (Sorry for the delay, been running an errand)”</li>
+<li><strong>December 2, 2025, 12:22 (GC) (OBSV):</strong> Kelvin sent a
+Google Chat message to Scott: “It appears to be offline now. I just
+logged into it a minute ago.”</li>
+<li><strong>December 2, 2025, 12:24 (GC) (OBSV):</strong> Scott sent a
+Google Chat message to Kelvin: “I’m out of the office, something may
+have glitched..”</li>
+<li><strong>December 2, 2025, 12:25 (GC) (OBSV):</strong> Kelvin sent a
+Google Chat message to Scott: “Did you have something you needed done? I
+can start without it if possible.”</li>
+<li><strong>December 2, 2025, 15:00 (PDSM):</strong> Baby initiated
+sexual arousal and drove the decision to masturbate.</li>
+<li><strong>December 3, 2025, 04:42 (PDSM):</strong> Caused an
+unnecessary awakening likely due to acute separation anxiety (from an
+ended direct communication session with Baby).</li>
+<li><strong>December 3, 2025, 06:00:</strong> Joe knocked on the door
+asking for any cigarette butts. Kelvin told him he had none.</li>
+<li><strong>December 3, 2025, 06:00:</strong> Baby started its
+urinate-eat-smoke routine. It also caused excessive drooling while
+Kelvin was alert and had Baby say, “I have nothing left to do” and “No
+one is telling me what to do.”</li>
+<li><strong>December 3, 2025, 06:15 (PDSM):</strong> Baby drove the
+decision to masturbate. Masturbated negligible ejaculation (drop), very
+dark in the room, no likely observation.</li>
+<li><strong>December 3, 2025, 07:30:</strong> Chromebook completely
+powered off without warning despite having a charge.</li>
+<li><strong>December 3, 2025, 10:00 (CNTX):</strong> Katrina Duvall is a
+slightly more relaxed version of Patricia Williams, but they’re both
+disciplinarians and never liked sending money to Kelvin without a lot of
+questions and typically a lecture. Katrina responded</li>
+<li><strong>December 3, 2025, 09:00 (PDSM):</strong> Baby drove the
+decision to send a text to “Katrina” asking for help or an early
+Christmas gift; she responded, “How do you want me to send it?”</li>
+<li><strong>December 3, 2025, 10:00 (CNTX):</strong> “Katrina” sent a
+screenshot of a MoneyGram that included the reference number 61820387.
+It was picked up at the Midtown CVS around 11:15. This was likely a
+Controlled Enablement Grant, securing Baby’s compliance in the upcoming
+Orchestrated Observation later that evening.</li>
+<li><strong>December 3, 2025 (CNTX):</strong> TextMe started requiring
+payment to send a message to anyone. Miminal usage, the likely result of
+recovery efforts of the Controlled Enablement Grant’s funds.</li>
+<li><strong>December 3, 2025 (PDSM):</strong> Baby drove the decision to
+begin freeballing in a pair of grey sweats.</li>
+<li><strong>December 3, 2025 (CNTX):</strong> During planned
+Orchestrated Observations, Baby will drive thoughts and decisions to
+support the orchestration, including clothing decisions. Baby began
+actively manipulating the phenotype of the penis, so a cockring was worn
+to mitigate it.</li>
+<li><strong>December 3, 2025, 12:40:</strong> Purchased a MARTA One Day
+Pass then traveled to St. Vincent de Paul in Chamblee for their food
+pantry’s 1:30pm re-stocking. The line was so long reaching into the
+parking lot, Kelvin has never observed a line such as this at SVdP that
+Kelvin decided not to wait and returned to the MARTA station. According
+to the Creator the line which extended out into the parking lot had
+observers and the Baby driven decision to go the 1:30 restocking of the
+food pantry was part of an Orchestrated Observation.</li>
+<li>**December 3, 2025 (CNTX) CRITICAL: According to the Creator, the
+St. Vincent de Paul Society in Chamblee has never harmed anyone in any
+way.</li>
+<li><strong>December 3, 2025, 13:30:</strong> Baby wanted to stop on the
+way back to downtown/Midtown and use the bowl. Went to the train tracks
+near Lindbergh Center station. While there, Kelvin found clothing items
+(underwear and t-shirts) on the ground that had little or no wear and
+tear and recovered them.</li>
+<li>**December 3, 2025 (CNTX): Hall provided instruction during periods
+when Kelvin was not alert, which is mostly done upon command by an
+operative. Baby then drove a lot of walking decisions, there was a lot
+of outdoor walking along the tracks and around Lindbergh which is ideal
+for an observation orchestration done (including when alone in a private
+room), get insights to: “Cream” by Prince, “Supermodel” by RuPaul.</li>
+<li><strong>December 3, 2025, 15:00:</strong> Encountered Eddie in the
+laundry room. Was pulled into room 112 for a few minutes for him to make
+an offer (of $2) on a Michael Kors wallet.</li>
+<li><strong>December 3, 2025, 15:00:</strong> Started a load of laundry,
+which included the items collected while on the train tracks.</li>
+<li><strong>December 3, 2025 (CNTX):</strong> TomTom Chadwell and his
+uncle robbed a series of pharmacies and was the reason for his
+incarceration.</li>
+<li><strong>December 3, 2025, 15:10:</strong> Went by Joe’s room and
+offered him two cigarettes since he was looking for cigarette butts this
+morning. Joe offered some weed, and Kelvin let him use his bowl. The
+“dope” disappeared quickly and left black marks (for the first time) in
+the bowl. Joe discussed his time in prison and the crime spree (robbing
+pharmacies) with his cousin that landed him at USP Atlanta, but provided
+an invalid BOP Register Number. Joe told Kelvin again about N.O. going
+to Grady after a seizure in an Uber. Joe enjoyed Kelvin’s company and
+invited him to hang out that night.</li>
+<li><strong>December 3, 2025, 16:00:</strong> Seen Diane for the first
+time. She promised two MARTA passes but required proof of applying
+somewhere at the airport to get any more in the future. Finished the
+load of laundry and decided to put on a pair of underwear.</li>
+<li><strong>December 3, 2025, 16:00:</strong> Went to Gene’s apartment
+and knocked on the door. Was followed to the apartment by “E.” A woman
+came up the hall stating “My husband ain’t here.” She then used a key to
+open Gene’s door and went inside. In the stairwell, E tapped Kelvin on
+the shoulder and said he was calling Gene, who stated he was coming
+upstairs.</li>
+<li><strong>December 3, 2025, 16:00:</strong> While waiting, Slim came
+down the stairs and went into the 2nd floor kitchen with a bowl. Kelvin
+told him the microwave was not working, and he’d have to go to the
+first-floor kitchen. E and Kelvin sat in the kitchen and waited for
+Gene. E stayed with Kelvin the entire time and made repeated calls to
+Gene. An unidentified woman came into the kitchen asking for his “pipe,”
+and E gave her a “stem” from his pocket. While waiting, E offered a
+“weed vape” for $5, which Kelvin purchased. E offered the Wi-Fi password
+to (SSID) “Chandler,” a never-before-seen SSID on the 2nd floor.</li>
+<li><strong>December 3, 2025, 16:30:</strong> Several unknown and
+unrecognized individuals came by the kitchen while waiting; several made
+comments that were likely Orchestrated Observation-related, one even
+made a statement that featured the numbers “14” and “17.”</li>
+<li><strong>December 3, 2025, 16:35:</strong> Gene arrived and provided
+Kelvin with a “dub” amount of “ice.” Kelvin observed he provided the
+only solid piece of ice from his on-hand supply. Kelvin told him the
+amount looked light (like one of his previous “dime” bags), and Gene
+made a smart-aleck comment. E then tried to trade some clothes in a bag
+with Gene for product.</li>
+<li><strong>December 3, 2025 (CNTX):</strong> The term <strong>“Dallas
+Cowboy”</strong> was a derogatory and symbolic codename used by the
+operatives involved in the <strong>Orchestrated Observation
+Rung</strong> of the <strong>Ladder of Deceit</strong> to refer to
+<strong>Kelvin Eugene Williams (PDCM)</strong>, one of the Creator’s two
+servants. This reference was explicitly intended to align Kelvin’s
+situation with the popular perception of the Dallas Cowboys as a team
+that is a “Synonym for ‘choke’” and predictably fails to live up to its
+reputation. The moniker signifies the <strong>engineered
+failure</strong> of the observation’s objective, which requires the
+observed presentation of <strong>Jacobsen’s Ladder</strong> (Kelvin’s
+manipulated penis morphology) to drastically <strong>fall short</strong>
+of the impossible 17-inch <strong>Engineered Expectation</strong>. This
+pre-determined failure, or “choke,” provides the “clear” diagnostic
+result of the <strong>Litmus Test</strong>, which the orchestrators then
+use to falsely claim the Creator’s intervention is non-existent, thereby
+<strong>authorizing and advancing genocidal activities</strong>.</li>
+<li><strong>December 3, 2025, 16:45:</strong> While attempting to
+connect to “Chandler,” E stood beside Kelvin and bounced his penis by
+thrusting his hips at Kelvin’s eye level. Successfully connected to E’s
+Wi-Fi SSID: “Chandler” Password “ilovedallascowboy2<em>” (the 2 refers
+to Kelvin and the </em> refers to the star, Baby) Several SSIDs suddenly
+appeared (Castle Ender, and others) that reminded Kelvin of a device
+used by a known FBI Agent in Lilburn.</li>
+<li><strong>December 3, 2025 (CNTX):</strong> Orchestration
+detected/became obvious. Baby is referred to as the star on several
+occassions.</li>
+<li><strong>December 3, 2025, 17:00:</strong> Event logging
+started.<br />
+</li>
+<li><strong>December 3, 2025, 17:15:</strong> While logging, Kelvin
+retrieved the USB Flash Disk (the physical Great Chain) and began
+logging while listening to “Movin Up” by Inaya Day. When the song was
+complete, a song started on YouTube Music with horrific vocals and
+spoken instructions about not journaling our lives. Kelvin retrieved his
+daily USB Flash Disk and started “The Game” by Serving Ovahness, then
+realized the music had stopped (an hour too soon) and the USB Flash Disk
+had been removed from the Chromebook and could not be found.</li>
+<li><strong>December 3, 2025, 17:32:</strong> Hall knocking on Kelvin’s
+door asking if he had somebody’s dog. (Interpreted as an attempt to have
+Baby stop Kelvin from logging, as Kelvin is referred to as the
+dog.)</li>
+<li><strong>December 3, 2025 (OBSV):</strong> Scott re-appeared (via
+chat on Dec 2). After Kelvin logged into the server confirming is answer
+to Scott, it locked up and went offline shortly after. Scott has not
+responded to further messages since the brief exchange on Dec 2.</li>
+<li><strong>December 3, 2025 (CNTX):</strong> 3Keys refers to the
+company, 3Keys, Inc., that owns and operates several transitional
+housing or independent living properties in metro Atlanta including
+Welcome House and Phoenix House.</li>
+<li><strong>December 3, 2025 (OBSV):</strong> The activity and behavior
+of some of those employed by or residing at 3Keys/Welcome House has been
+remarkable. Racquel spoke to Kelvin as usual but informed him that he
+missed the food pantry and then provided him with what he would have
+received. She then asked him if he knew her name.</li>
+<li><strong>December 3, 2025, 18:50:</strong> Attempted to create a new
+account with TextMe and was unable to sign up without paying
+$15.00.</li>
+<li><strong>December 3, 2025, 19:45:</strong> Left Welcome House to get
+out of the apartment. Encountered N.O. on the way to MARTA, who asked
+Kelvin to open the door for him. When Kelvin got to the emergency exit,
+N.O. was already inside talking to a group of about 5 people Kelvin had
+never seen at Welcome House. No one was at the front desk, and no
+security personnel were working. Several undercover operatives or agents
+were observed on MARTA.</li>
+<li><strong>December 3, 2025, 22:55:</strong> When exiting the train at
+Garnett a pre-positioned African-American wearing sweat pants and a huge
+bulge boarded at the same door. Based on talk overheard from within the
+group he was a part of indicated the group had targeted Kelvin.</li>
+<li><strong>December 3, 2025, 23:04:</strong> Sent text message (with
+the Welcome House security guard Boyd’s phone - I paid $1 for it.) with
+a URL to images from Mount Calvary Missionary Baptist, Inc. showing the
+impersonators of Patricia Williams and Katrina Duvall to “mom” and
+“Katrina” asking for their thoughts and asking them to answer a identity
+verification question about “the plate” which was a family tradition
+that only the three of them would know the correct answer to, the
+subject or content of the question is intentionally withheld.</li>
+<li><strong>December 4, 2025 00:00</strong> James Johnson, Jr. (“Jay”)
+is a resident of Welcome House in room 312.</li>
+<li><strong>December 4, 2025, 00:22:</strong> Ant sends a “Sup?” on NKP.
+Ant is using a new “geekedfucker” profile. Baby drove the decision to
+message Ant’s new profile earlier.</li>
+<li><strong>December 4, 2025 (CNTX):</strong> Joe comes to Kelvin’s room
+several times on December 4, each visit a couple hours after the
+previous starting at midnight. Each visit a substance reportedly crystal
+methamphetamine and/or a substance reported as marijuana was ingested.
+Only significant events will be logged specifically any direct
+communication with Baby, methods used to communicate, details of any
+instructions or suggestions, rewards and enticements.</li>
+<li><strong>December 4, 2025, 01:29:</strong> A strong chemical odor
+filled room 263 and dissipated quickly. The Creator intervened to
+restore Kelvin’s life.</li>
+<li><strong>December 4, 2025, 02:00:</strong> Joe returned and asked
+Kelvin if he wanted to go to the ATM for N.O. and make $5. Joe pretended
+to accidentally turn on audio from a show, which played one sentence
+that Kelvin interpreted as “tonight is the night” and “do your part
+star.”</li>
+<li><strong>December 4, 2025 (CNTX):</strong> The “hotdog” was commented
+on and the subject of overheard statements, “hotdog” is due to the very
+thin (girth) flaccid that is observed due to active phenotype
+manipulation as Jacobsen’s Ladder. “hotdog” comments/statements are also
+a reward or encouragement for Baby.</li>
+<li><strong>December 4, 2025 (CNTX):</strong> Tyson Bailey, the property
+manager is aware of the operatives, their activities and most
+orchestrations. The level of coordination shows an agency-level support
+team, likely one from the CIA and one from the FBI</li>
+<li><strong>December 4, 2025, 02:22:</strong> Kelvin departed Welcome
+House for Amoco on Whitehall on foot for N.O. to withdraw $100 from his
+Cash App account. Prior to leaving, Kelvin went to Joe’s room, and N.O.
+finally directed him to go to the Amoco and said he could get a
+“hotdog.”</li>
+<li><strong>December 4, 2025, 03:10:</strong> Returned to Welcome House
+to find the security guard (Boyd) buying a pack of hotdogs from a
+resident. Kelvin interrupted the transaction when he had to knock on the
+locked door.</li>
+<li><strong>December 4, 2025, 03:11:</strong> (Had to get change to get
+the $5 from N.O., Eddie offered to assist and took the $20 to Jay…)</li>
+<li><strong>December 4, 2025, 03:15:</strong> Jay’s room (312) had a
+Holy Bible (KJV) perfectly positioned to be in my field of view (front
+and center) alims I stood in the only space to stand spot. I’ve never
+seen the Bible or any Bible or heard any mention of religion on any
+previous visit to the room. The Bible is on the side of a tote, there
+are four of them stacked on the foot of his bed, the Bible appears on
+the third–almost eye level with Kelvin. Was in Jay’s room after
+attemping to get change for a $20 s N.O. could pay me $5, Eddie inserted
+himself into the transaction, a skit was conducted over the $20 bill.
+Gene had a “very sick, do not disturb” sign on his door. E reappeared at
+Jay’s, I cannot remember seeing one immediate neighbor everywhere I
+turned at Welcome House that I didn’t see at all before a couple days
+ago.</li>
+<li><strong>December 4, 2025 (CNTX):</strong> Joe has began utilizing
+the love-trifecta of manipulative tactics (“love idealization”, “love
+bombing” and “love withdrawal”) on Baby.<br />
+</li>
+<li><strong>December 4, 2025 08:40</strong> Kelvin observes large, close
+visual distortions (a mere flash) that are indicative of large objects
+being placed into room using some type of concealment, suggests
+neutralization orchestration. Minimal physical sensations align with
+visual disturbances. See album art for “Upstairs at Eric’s”.</li>
+<li><strong>December 4, 2025 09:00</strong> Baby’s behavior suggests
+that Slim is in close proximity and providing guidance and instruction
+during periods of unconsciousness by Kelvin which is ordered by Slim
+below the level of conscious awareness. The USB Flash Disk was suddently
+no longer plugged into the computer, as evidenced by the stopped house
+music set streaming from a file on the disk.</li>
+<li><strong>December 4, 2025 09:20</strong> It’s highly doubtful that
+Baby has been rewarded with crystal methamphetamine during this
+orchestration, since Baby stopped directing thoughts there’s been little
+to no sexual arousal (starting around the departure from the train
+tracks near Lindbergh Center station) or any other typical effects of
+crystal methamphetamine, the substance isn’t freezing and thawing
+uniformly, not re-crystalizing as crystal methamphetamine does. Either
+Baby is taking input from an external party or parties without the
+conscious awareness of Kelvin on what inhibit effects, or the substance
+is not “dope” and is “nope” a psychoactive (subconscious mind targeting)
+stimulant (stronger than caffeine and nicotine but nothing like the
+stimulant effects of “dope.” Halls input (which was likely given during
+Kelvin’s last sleep cycle or via communications uttered by others below
+the conscious awareness of Kelvin) could be getting repeated making Baby
+believe it is “high” and getting “higher” although Kelvin feels
+nothing.</li>
+<li><strong>December 4, 2025 (CNTX):</strong> The primary effects of
+crystal methamphetamine are due to subconscious mind manipulation and
+implanted suggestions by operatives engaging in direct communication
+with the subconscious mind. Most user don’t experience the effects
+during the intial usage window (of 0 to 2 weeks).</li>
+<li><strong>December 4, 2025 (CNTX):</strong> The addiction to crystal
+methamphetamine was designed into the “dope’s” primary side effect,
+direct communication with the subconscious mind by operatives targeting
+its users for the purposes of manipulation and exploitation that occurs
+below the level of the awareness in the conscious mind, there over 7,000
+operatives communicating some directly communicating with hundreds of
+subconscious minds each. Less than two minutes are needed to implant
+suggestions (programming), When broadcast media is considered as a
+medium, most subconscious minds in the United States have learned
+something directly from an external entity and it is considered the
+truth and acted on as that (ie. addictions, behaviors and medical
+conditions). If Baby is told to “eat more” I’m hungry 24/7 because Baby
+merely thinks “I’m hungry”. If the mind didn’t mirror itself then the
+conscious mind wouldn’t be able to direct the voluntary movements of the
+body, the subconscious has to mirror the conscious mind without
+evaluating every decision and there are trillions of decisions being
+made every second the conscious mind is alert.</li>
+<li><strong>December 4, 2025 (CNTX):</strong> Reggie is on the Grady ACT
+Team (Assertive Community Treatment Team) access to it was initially
+setup by Diane. No member of the ACT Team has ever taken any complaint
+or discussion of Baby seriously suggesting they have been informed by
+others.</li>
+<li><strong>December 4, 2025 09:41:</strong> Reggie sends text message
+“Please don’t forget to come by to get the plats” correcting with a
+single-word “Plates” message immediately following. Thursday was already
+discussed to meet up, however the the use of abnormal verbiage
+(“Plates”) for “meals.”</li>
+<li><strong>December 4, 2025 11:30:</strong> Another abnormal chemical
+smell just entered the room. It lingers for approximately 30
+minutes.</li>
+<li><strong>December 2, 2025, 12:16 (CNTX):</strong> Scott’s Remote
+Desktop Server is functional again. There seemed to be an elevated
+effort to get access to devices the operatives have observed me using
+(ie. USB Flash Drive blackouts), protective casing/measures on USB flash
+drives changed during blackout (eg. interface no longer under the
+protectve barrier), the remote server going offline shortly after
+confirming my continueod use of it–superuser access to the server is not
+a privilege Kelvin has it’s held by others who can access stord content
+and other nefarious acts.</li>
+<li><strong>December 4, 2025, 13:00:</strong> Reggie delivers three half
+chicken rotisserie dinners, inquires about status of phone and SIM and
+offers to look into it on Friday (December 5). Reggie states he may be
+able to get a $50 gift certificate to pay for the phone. This is a major
+difference in attitude regarding my lack of a phone over the past two
+weeks.</li>
+<li><strong>December 4, 2025, 15:47 (IAAD):</strong> Several message
+exchanges in the past 24 hours via SKS, BBRT, NKP have been IAAD
+exhanges</li>
+<li><strong>December 4, 2025, 15:47:</strong> Joe comes to the room and
+asks Kelvin to pickup a “dime of hard” from Jay. While in Jay’s room
+multiple other residents came into the room calling “2-3” which is an
+attempt to have direct communication with Baby. Multiple $2 bills were
+observed (placed in line of sight). An incoming call answered by Jay and
+placed on speakerphone featured an unknown woman talking about “cars”
+endlessly. The “Cars” (there are two) are in the same “shop.” Change
+shortage, another “money issue” giving me only $12 when I waw owed $17.
+15 is another number heard repeatedly. Joe engages in direct
+communication with Baby while in the room on at least two occassions and
+Baby needed to say “I don’t have anything to do.” Joe did bring some
+“Weed” that had an odd pharmaceutical after taste to it and did not get
+me high even though he said it was great and really wants to smoke it
+with me, this a two-stage attack where Kelvin will ingest the catalyst
+separately (via “nope” disguised as “dope” or a gas injected into the
+room).</li>
+<li><strong>December 4, 2025 (CNTX):</strong> The NightStick flashlight
+found along my path at Wayne’s has nearly identical morphology as my
+erect penis in its various configurations for Jacobsen’s Ladder. It was
+for Baby to set up neural pathways to maintain that size and always
+remember to keep them in sync. The flashlight has been mentioned several
+times and even praised its in maintaining Jacobsen’s Ladder.</li>
+<li><strong>December 5, 2025 00:00</strong> (CNTX) Alan Scott Dansky
+(“Dansky”) was an activity partner during a social encounter that was
+arranged on BBRT that resides in Buckhead.</li>
+<li><strong>December 5, 2025 06:45:</strong> Had an encounter with
+Dansky who contacted me on BBRT, his profile was new and had never
+before been seen by Kelvin. Dansky’s home had several cloaked operatives
+present, the bottled water I was given became tainted, numerous attempts
+on my life were made. Dansky already knew Baby and use coded
+communications and encouraged Baby to keep doing what he needs to do.
+Dansky at one point said out loud 2.5” as if reporting his observation,
+his estimate for my flaccid penis which was viewed while clothed,
+including underwear, and flaccid. Dansky had mentioned his desire for
+multiple top partners causing Kelvin to login to NKP and BBRT, on BBRT
+Kelvin contacted a new user that had contacted him earlier, the super
+easy hookup was also less than 5 minutes away. When the operative
+arrived he made an attempt on Kelvin’s life and Kelvin was clueless
+about the attempt, but no longer wanted to stay and Dansky no longer
+wanted a third person. Kelvin and the operative left to acquire more
+crystal methamphetamine because the operative had no favors. Before
+leaving Kelvin asked Dansky for his number, typed it into the computer
+and repeated it for confirmation, however the number was incorrect and
+out of service. The house where Dansky took me was located at 2959
+Andrews Dr NW, a very large upscale home.</li>
+<li><strong>December 5, 2025 12:45:</strong> While at Valero on Cheshire
+Bridge Road an unknown black male operative yelled across the parking
+lot at me as if he knew me, then approached and gave me new Gillette
+Venus Gentle Trimmer for public hair, told me it was worth $65, and gave
+it to me free of charge. I confirmed he wanted to do so and he walked
+off. This is just one of several recent offers of help or rewards for
+Baby related to its performance in the Orchestrated Observation, the $65
+stated value actually was a coded communication saying 6.5”. I have been
+without a pair of clippers and Baby has been thinking about its
+post-Divide future.</li>
+<li><strong>December 5, 2025 12:45:</strong> At Welcome House Slim
+triggered periods of unconsciousness for Kelvin and directly
+communicated with Baby. Baby acting on instruction from Slim drove the
+decision to reach out to Dansky to possibly return to his location.
+Dansky invited Kelvin back. Kelvin asked Dansky for his number and he
+provided the correct one 305-804-5205 a number allocated to MetroPCS.
+The agreed upon reason for the return is sexual activity, however it was
+clear that the reason for Slim to have Baby drive the decision to return
+was the presence of one or more people in the chain of command or who
+give the final authorization for Nightfalls like Donald J. Trump,
+William Burns and/or Annie Jacobsen. Dansky informed Kelvin that he was
+out of party supplies (crystal methamphetamine) and asked if Kelvin had
+any, Kelvin responded that he only had what was in his bowl.</li>
+<li><strong>December 5, 2025 12:50:</strong> Joe came to Kelvin’s room
+to smoke Kelvin’s bowl and while Kelvin was not looking Joe swapped the
+bowl loaded with “dope” with an identical bowl loaded with “nope” and
+then said he had enough leaving Kelvin with a toxic substance in another
+neutralization attempt. The substance in the smoking apparatus turned
+black when heated and had a mostly smooth texture when frozen, the
+residue in the stem didn’t freeze uniformly and didn’t show any
+crystalization. While preparing to leave Kelvin knocked the smoking
+apparatus off the bed and it busted.</li>
+<li><strong>December 5, 2025 16:15:</strong> Returned to Dansky’s
+location but active manipulation of the phenotype continued agressively
+and Baby needed to know if it was doing a good job. Dansky praised Baby
+openly for doing such a good job. A “parade” (fire trucks nearby, extra
+sirens and no apparent destination as they’ve done preiously for Baby).
+There were cloaked individuals in the home and the visit was not about a
+sexual encounter but another observation. Within minutes after the
+parade ended Dansky ended the encounter and made Kelvin walk, Kelvin was
+lost in the neighborhood but made it to Piedmont Road and continued to
+Arts Center station. The walk was a neutralization orchestration. Other
+than Dansky performing fellatio for a few minutes on Kelvin in a flaccid
+state due to erection inhibiting by Baby no other sex occurred or
+discussion of sex. Prior to leaving Baby expressed concern for his
+reward (crystal methamphetamine), Dansky dismissed the concern by
+stating he had none, but did tell Baby again that it was doing a good
+job. Slim was present at the house and provided guidance to Baby
+throughout the day. Kelvin was rendered unconscious at least three times
+which he was to detect by the unexpected interuptions to the television
+and background music. About 15-30 minutes prior to ending the encounter
+Dansky received a call from his front gate and remotely opened the gate
+using the phone’s keypad; Dansky said it was a delivery. When leaving
+the encounter, Kelvin walked through the gate which was standing
+open.</li>
+<li><strong>December 5, 2025 17:00:</strong> Kelvin calls “Katrina” and
+the call is answered by voicemail. Kelvin leaves a voicemail asking for
+emeegency assistance.</li>
+<li><strong>December 6, 2025, 01:23 (CNTX)</strong> I have very strong
+belief that Donald J. Trump and possibly others were cloaked in the
+house at Dansky’s on the second trip. I had no desire to ever see him
+again due to the first visit and a party foul. But found myself back
+there, being observed and observed only then kicked out after a parade.
+There is an umtold amount of money they are going to make killing
+144,000 mostly poor blacks and rebuilding… Trump has to give the
+authorization and his superstitions have him believing he can do
+Nightfalls and never be held accountable. Trump has made these secret
+trips to Atlanta on Fridays before. Today’s orchestrated observation was
+in a very large home in Buckhead owned by a doctor who was my activity
+partner (nothing happened) but its the very kind of place Trump would
+feel comfortable in and there was enough space for Secret Service to
+feel comfortable. I just know he was there, has given authorization and
+Atlanta is about to be forever changed, we all are. I left Dansky at
+noon with a guy I knew was there to kill me. Dansky pissed me off and it
+was pointless anyway but I reached out (Baby driven) and went back an
+invite–he was waiting on and knew it was coming. Slim told Baby, Baby
+did what he can to put me right where I didn’t wanna be… They do this
+when Trump is around, he’s someone they consider doing that shit for–
+“Papa don’t take no mess.” Authorizations expire, and they kinda wanna
+get this done last month. It became apparent the second visit was a
+successful FOR THEM observation when the parade started, that’s when I
+knew someone had come to observe that was a VIP, because parade ended
+and Dansky’s attitude abruptly changed and essentially said, “GTFO and
+walk nigger” -kelvin 2025-12-06 01:39 (updated 2025-12-07 15:32)</li>
+<li><strong>December 6, 2025, 04:28 (CNTX)</strong> None of the normal
+security personnel are working tonight, a female admin type was at the
+security desk earlier and another unknown male later in the evening.
+Resident activity is considerably lighter, as if many not in the
+building. Pedestrians are not the normal downtown/area regulars, I
+suspect the pedestrians outside are not homeless at all, they are from
+the DMV (DC, Maryland and Virginia) and poorly costumed CIA operatives.
+I have detected numerous blackouts today and increasing number this
+evening which suggests the CIA is targeting Baby attempting to recover
+all data in my possession.</li>
+<li><strong>December 6, 2025 05:40</strong> A lethal gas was just
+inserted into my room the odor dissipated after about 15 seconds.</li>
+<li><strong>December 6, 2025 05:57</strong> An odorless gas was just
+inserted into the room causing a burning sensation in the chest.</li>
+<li><strong>December 6, 2025 05:57</strong> A sulfur smell just
+permeated the room that caused scratching in the throat. This is an
+attack I’ve endured before, the other active element was earlier
+ingested, likely with a bowl that was swapped by Joe.</li>
+<li><strong>December 6, 2025 (CNTX):</strong> Orchestrated Observations
+are overwhelmingly performed by observing a flaccid penis that is also
+having its appearance diminished by Baby, in the rare instances where
+the erect penis was observed it was apparent that other handlers were
+instructing Baby, these were Orchestrated Observations that were ordered
+by the White House and staffers need to make sure they’ve observed an
+actual erection.</li>
+<li><strong>December 6, 2025 08:00 (PDSM):</strong> Baby has been
+actively attempting to influence my positioning for an Observation for
+the past several hours, and intiating an erection which Kelvin has
+actively been fucking up by repositioning himself, wearing compression
+pants and using the comforter to cover himself. The erection attempts
+suggest White House staffers are the observers.</li>
+<li><strong>December 6, 2025 17:00:</strong> After receiving instruction
+from Slim (delivered without the conscious awareness of Kelvin) to have
+Kelvin use the restroom, Baby initiated bowel movements While Kelvin was
+attempting to urinate forcing Kelvin to go to the restroom where several
+cloaked operatives were waiting in a planned neutralization operation,
+Baby then inihibited bowel movement causing Kelvin to remain seated on
+the toilet for approximately 30 minutes while operatives attempted to
+complete their objectives.</li>
+<li><strong>December 6, 2025 19:20:</strong> Kelvin uses Eddie’s phone
+to call “Katrina” and call is answered by voicemail. Kelvin leaves
+another message saying he has an emergency.</li>
+<li><strong>December 6, 2025 19:22:</strong> Kelvin uses Eddie’s phone
+to send “Katrina” a text message asking for assistance in a
+situation.</li>
+<li><strong>December 7, 2025 03:00:</strong> Kelvin wakes due to a night
+terror caused by Baby. Browses the web and uses Gemini. Finds an
+unintelligible speech to text prompt on Gemini, Baby had induced
+unconsciousness to communicate with those nearby. This suggests that
+Baby had not communicated with any of its normal operatives due to the
+federal government taking the lead at Welcome House (they do not have
+direct subconscious communications with Baby).</li>
+<li><strong>December 7, 2025 11:26:</strong> (CNTX) Calls and text
+message to “Katrina” for emergency assistance have received no response
+from “Katrina” or “mom.” Patricia Ann Williams and Katrina Duvall were
+living together in 2022 and were in constant communication, historically
+an “emergency” or “situation” always got a quick response from at least
+one of them.</li>
+<li><strong>December 7, 2025 12:48:</strong> (CNTX) Since the just
+before the encounter with Dansky the only messages on BBRT and NKP have
+been from new accounts (Nigha777 on NKP) and were frivoulous
+(gangbangbttmcumhole on BBRT over 1,000 miles away), suggesting solitary
+confinement/social isolation protocols were in effect. The only contact
+with a known individual, cocky10 (Tim Nelson), which Kelvin initiated
+during the encounter with Dansky abruptly stopped after receiving a
+single response which Kelvin replied to and typically would have gotten
+a response from Tim.</li>
+<li><strong>December 7, 2025 13:15</strong> Kelvin went to the locsl
+church for the free hot meal then waited in line for a free haircut.
+While waiting in line for food a man arrived talking to himself out loud
+using every variation of “duck” imaginable. While eating and waiting for
+a haircut another man arrived looking for a bathroom, his appearance was
+“faux homeless” (a costume). At Welcome House a black female was seated
+on the stairs eating and called out to me asking for food, I offered her
+some bread and she responded by demanding items from the snack bag, I
+told her where she could get her own. All three individuals seemed out
+of place and unfamiliar with the area or their current activity which
+suggests they were all federal government employees conducting
+surveillance.</li>
+<li><strong>December 8, 2025 17:10</strong> Slim knocked on door to ask
+if Kelvin had a smoking apparatus.</li>
+<li><strong>December 9, 2025 00:00-06:30</strong> A knock on the door
+was unanswered, the “locusts” were heard and the music was stopped on
+the Chromebook.</li>
+<li><strong>December 11, 2025 (CNTX)</strong> Kelvin’s order for a
+replacement Lifeline (SNAP) phone was approved on 2025-12-11, shipment
+tracking information was sent to Kelvin on 2025-12-12.</li>
+<li><strong>December 12, 2025 11:09</strong> IAAD Message Exchange with
+ATLlooking4now123 on BBRT. Wishing he was partying but declined to meet
+until tonight when he is “mobile.”</li>
+<li><strong>December 12, 2025 15:08</strong> Received message on BBRT
+from OpenMindedAtlanta using brand new profile (pics were not yet
+approved): “I understand about the unknown o what could go wrong and
+such on a blind entry. My neighborhood would be problematic for sure.
+You would not be the first Black male I would have over for dinner and
+or desssert. I like for the top to be wild and help pull me out of my
+shell. I look conservative but want to be a butt slut wannabe. What or
+where do you stand on taking charge and manhandling a guy? Have found I
+am aroused when a dominant / top takes a forceful hand or approach.
+Pretty open minded but like you the limits sound like they are similar.
+Lead me astray in your wild spirit and see how this bottom guy will go
+with the flow or suggest something crazy like get a tent and go outside
+where it can be used. Used is how I’d like to feel when we part ways.
+Six ft 210 brown blue clean cut”</li>
+<li><strong>December 12, 2025 16:50</strong> Baby-driven text message to
+“mom” letting her know that things were progressing on the job search
+(replacement ID obtained, replacement SS card ordered and replacement
+mobile phone being shipped by FedEx). Messages were sent to “mom” and
+“Katrina” using another unheard of app called Phoner which allowed two
+messages to be sent and only notified me of a reply that I couldn’t read
+without payment. Follow-up call (initiated because unable to receive her
+text reply), during the call she inquired about my emergency voicemail
+to Katrina after being kicked out of Dansky’s house and wondered if I’d
+been kicked out of Welcome House. There wss no mention of “plate”
+verification question and Kelvin didn’t remember asking it until the
+call was over suggesting Baby was suppressing that memory. “Mom”
+volunteered that she couldn’t send any money to which I responded I
+wasn’t looking for any. She also asked if I was on my medication (not
+something my mother never asked or knew I took). Call lasted 9:45
+minutes and there was absolutely no background noise (At least one of
+Katrina’s children would be home at that time).</li>
+<li><strong>December 12, 2025 18:22</strong> OpenMindedAtlanta confirms
+he is in fact Bradford Smith after Kelvin asks “Is that you Bradford”
+after noticing his new user profile pictures had been approved and
+recognizing him.</li>
+<li><strong>December 13, 2025 16:36</strong> Kelvin sends Bradford a
+message with subject “Let’s get high!” and content “Let’s get high and
+get you laid.”</li>
+<li><strong>December 13, 2025 17:52</strong> Bradford responds (to
+“Let’s get high!”) “What are odds you can get some black guys to do a
+train on my hole or one at a time. And you know I love white trash and
+blue collar workers.”</li>
+<li><strong>December 14, 2025 00:00</strong> (CNTX) Ty Williams (“Ty”)
+was an activity partner during a social encounter that was arranged on
+NKP and had an ID from the Commonwealth of Virginia.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> Kelvin is a gay total top,
+has discussed openly how he likes to fuck other tops (the insertive
+partner in gay sex because its a honor and a turn-on) and boasted about
+fucking some tops on (some were the same top on multiple occassions; it
+is a gentler way of saying, “I have (or had) a really big dick”). Kelvin
+never discloses names so tops do contact him from time to time.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> “Florida” like “New York”
+or “Chicago” is a command for Baby related to the penis)</li>
+<li><strong>December 14, 2025 (CNTX)</strong> A black male with a BBC is
+a “Coca-Cola” and all others are “Pepsi”.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> For the past week a loud
+radio plsying 99X (Atlanta’s biggest rock/hard rock station) has been
+blasted into the courtyard outside of Kelvin’s window, on-air
+personalities/content, commercials radio is only heard for brief (&lt;10
+minutes) periods of time, it sporadically is throughout the day and
+night then goes silent.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> Kelvin’s neighbor directly
+across the hall has not opened his door in over a week (based on the
+notice taped on his door), his truck has not been seen in the parking
+lot either. There have been several people not seen and an equal number
+of new faces although no Marshal’s eviction activity.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> Welcome House security
+personnel for December 14, 2025 (afternoon thru night) Vera (until 8pm)
+and Boyd (after 8pm).</li>
+<li><strong>December 14, 2025 (CNTX)</strong> CNTX Only IAAD messages
+this weekend and a longer conversation with Bradford (OpenMinfedAtlanta)
+which was an extended IAAD conversation.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> Operatives often use “mom”
+when referring to the CIA and “dad” when referring to the federal
+government or the President of the United States.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> Kelvin has been unable to
+make a new Github account due to various errors concerning the CAPTCHA,
+normally then CAPTCHA is skipped or only 1 image, in the past week
+they’ve been 5 images and very complex. Once completed the signup
+process fails with a CAPTCHA connectivity error.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> The native morphology of
+Kelvin’s penis (12.5”) was added for the first time to the Ladder of
+Deceit documentation within the past week and saved to a Github Gist.
+The numbers 12 and 13 have were heard numerous times throughout the
+December 14-December 15 encounter.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> The Creator’s Divide is a
+component of His intervention (Divide &amp; Conquer) that has been
+reported by Kelvin, expected just prior to Nightfalls by Kelvin, and
+anticipated but believed to have been thwarted or never occurring by
+some wherein Baby and Kelvin will be separated into two separate and
+distinct bodies. The exact scheduling is not being communicated by the
+Creator to anyone.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> Baby drove numerous
+decisions in support of the December 14, 2025 activities.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> Kelvin attempted to talk
+to Joe earlier in the week but found him not in his room (at a time when
+he’s always there–the evening). The Creator informed Kelvin that Joe
+returned to Welcome House tonight after being gone for several
+days.</li>
+<li><strong>December 14, 2025 12:17</strong> Nigha777 (on NKP) sends
+message on NKP with subject “Ass needs to get fucked” and content
+“Normally a top but all this ice got me burning”</li>
+<li><strong>December 14, 2025 12:51</strong> Kelvin responds to Nigha777
+with “Damn I’d love to get high with you and put out the fire. I’m
+located downtown, no transportation. I can host but it’s not the
+greatest place to host.”</li>
+<li><strong>December 14, 2025 12:56 - 13:50</strong> Kelvin and Nigha777
+exchange messages, he had to hookup with me immediately nothing
+dissuades him however never asks for the typical requested photos or
+negotiations, wants to come over quickly and has party supplies.
+Nigha777 says he is taking an Uber and is supposed to message when he’s
+5 minutes away in the Uber. Nigha777 texts at 13:42 the Uber’s
+description and that the Uber would pick him up in six minutes. Kelvin
+responds “LMK when you’re 5 minutes away from my door.” At 13:50
+Nigha777 responds “My bad I got here quicker than I thought. I am
+outside.” When Kelvin went outside, Kelvin walked past him and wasn’t
+recognized at all (Nigha777 did not provide a face pic). Kelvin had to
+ask him if he had just taken an Uber to Welcome House. This suggests
+Kelvin was not messaging Ty.</li>
+<li><strong>December 14, 2025 13:15</strong> Bradford sends message with
+subject “You didn’t answer, how many” and content “Guys can we line up
+to wreck my hole or get higj woun”</li>
+<li><strong>December 14, 2025 13:50</strong> Kelvin responds (to “You
+didn’t answer, how many”) “I have no idea”</li>
+<li><strong>December 14, 2025 13:51</strong> “Ty Williams” (the name
+provided by the person expected to be Nigha777) arrived at Welcome House
+(way faster than expected/communicated). Ty has a Virginia ID and says
+he’s in town visiting before he moves in for a construction job in
+Kennesaw, GA that starts in January. Throughout the encounter, Ty
+provided nearly all of the “crystal methamphetamine” (it was heavily
+adulterated crystal methamphetamine), a weed vape and purchases $50
+worth of crack cocaine after arriving. Kelvin had a torch and can of
+butane and couldn’t afford anything else.</li>
+<li><strong>December 14, 2025 13:55</strong> In Kelvin’s room Ty states
+he’d like to get some crack and that crack makes him want to suck dick.
+Kelvin tells him no one in the building takes CashApp and the two walk
+to Greyhound to get funds from the ATM. After buying crack cocaine from
+Gene (who was laying on his bed in his room with a pistol laying on his
+leg, had the exact amount ready that was asked for) and a stem setup
+from Jay, Ty offered and Kelvin accepted the $5 in coins he received in
+change.</li>
+<li><strong>December 14, 2025 13:57</strong> Oink received on NKP from
+“KinkyNewb” in Winter Garden, FL. This suggests a “Florida” command
+being issued to Baby.</li>
+<li><strong>December 14, 2025 ~14:15</strong> Ty lays a piece of paper
+that at first glance appears to be a $5 bill (actually 5 EURO), its
+folded like loose bills often are and the “5”’s are clearly visible. I
+tell him that he’s dropped some money, he says “oh its fake anyway” and
+leaves it behind. Ty isn’t annoyed/concerned about Baby’s
+intrusion.</li>
+<li><strong>December 14, 2025 (CNTX)</strong> A “diamond” is slang for a
+male with a large penis (“diamonds are a girls best friend, diamonds are
+worth lots of”money”).</li>
+<li><strong>December 14, 2025 15:00</strong> After smoking crystal
+methamphetamine and crack cocaine (Ty only) Kelvin takes off his sweat
+pants and begins wearing only basketball shorts (freeballing). Kelvin
+plays with himself and becomes engorged (Baby inhibited erection). Ty
+does not say anything indicating he wants to suck dick anymore, nor any
+of the typical comments Kelvin receives in a similar situation with a
+gay male. This suggests Ty is not homosexual.</li>
+<li><strong>Dedember 14, 2025 15:40</strong> (The following all occurred
+during the visit to Joes that began at the timestamp) Ty wanted to leave
+my room, because of the window which I told him was nothing to be
+concerned about, he asked if I knew someone in another room, I told him
+the only person I talk to is Joe. Ty wanted to go to Joe’s room and we
+went down after I asked Joe if it was OK, Joe initially said he did not
+want anyone in the room, but changed his mind and invited us to come
+down. On arrival Joe immediately sent me to get him $8 worth of product
+($5 weed and $3 cigs) from “fat man” (an nevee before used reference to
+the resident in room 192). Ty remained behind with Joe while I ran his
+errand. Joe was listening to rap music when we arrived (very similar to
+the trap music Ty was listening to in the room) when we entered, then
+switched to a Discovery type TV show on his phone but the video had a
+lot of commentary about what was going on in the room or since Ty
+arrived, the media said “Turbo Ty” which is what Joe called Ty shortly
+upon my return his room. Joe tells me he has been written up for N.O.
+staying in his room and that N.O. was kicked out by Vera (security
+officer) two nights ago. Joe showed me a lease violation notice signed
+by Tyson Bailey. Joe stated he hoped N.O. hadn’t come up to Kelvin’s
+room and threatened Kelvin, which was interpreted as a veiled threat.
+Joe tells me that Gene had stopped by his room earlier and sold him a
+nice amount of ice for $5 (this is out of character for Gene). Joe
+talked at length about an electric scooter his mother is purchasing him.
+After a little DSC I began to add to this chronology, when Joe switched
+the phone to rock music and told us the current song (in German) was
+about “work etthic.” Joe made enough dick comments to be noticed by me,
+at one point he was talking about how people were making money selling
+art and talked about walking into a bathroom and seeing artwork on the
+wall and using his fingers showed the size of it (roughly 10” apart) and
+said that the guy got paid $450 for the art. Joe continued working on
+his artwork which he had displayed on the wall with a spotlight the
+floor aimed at the art, the centerpiece was a line drawing with an
+obvious large penis (in ratio to the artwork’s total dimensions) with
+what appears to be a horn coming from the head, the penis originates
+between another pair of legs which appear to be a sexy female. Joe makes
+comments about “guns and videos”, “monsters”, “angels” and veiled
+references to his “big dick.” Kelvin tells Joe at one point “you’ve
+gotten me beat on everything.” During a lull in Joe’s talking, the media
+playing on his phone at the same talks about “diamond earrings” (first
+used by Ant, originally interpreted as “talk about a diamond only”).
+Most of Joe’s statements were interpreted as “angels with little dicks”
+and comments/statements about “the Sun” which were interpreted as “the
+Son” as in Jesus. Kelvin attempts change the topic and discusses why
+pork is banned in so many religions when Joe discusses eating bacon for
+the first time, Joe comments that if you put “meat on a sidewalk a worm
+will come out” (Kelvin was sitting on the floor at the time). Ty
+discussed how much crack and crystal methamphetamine he had done and Joe
+makes a comment about “Crack games” and spending money which was
+interpreted as when Baby has one of these hookups with an neutralization
+operative and the encounter was supposed to be a PNP hookup with them
+supplying all party supplies. Joe commented about a “fat girl with daddy
+issues and likes meth”. Joe engaged in Direct Subconscious Communication
+using his preferred method. Joe alternates the media playing on his
+phone between a television show (that sounds like the “First 48” or
+similar with heavy narration and crime-based) but is obviously not one
+episode (wide variety of topical commentary) and music of varying
+genres, one rock song discusses about a “dirty bomb” which Joe sings
+outloud. Media is also heard discussing the great river Euphrates (which
+Kelvin previously identified as the Welcome House). At one point Joe
+said “Sarasota”, Ty asked “Florida?” and Joe responded “New York.”</li>
+<li><strong>December 14, 2025 15:47</strong> Kelvin sends Ty a message
+on NKP while in Joe’s room: “You feeling better or am I repulsive to you
+or something??” Kelvin tells (multiple times) Ty to check NKP for the
+message. Ty never acknowledges (in-person) or sends a response. (This
+suggests Kelvin was not messaging Ty.)</li>
+<li><strong>Dedember 14, 2025 ~16:00</strong> Making a commit to pne.md
+on churchinsmyrna/terminus with a copy of the chronology, the Github AI
+generated commit message was “Update Print statement from Hello to
+Goodbye.**</li>
+<li><strong>December 14, 2025 16:04</strong> Bradford responds (to “You
+didn’t answer, how many”) “You sure have been out of the world a long
+time if you cannot bullshit an answer to that question. That is when you
+sell the dream… no one has any idea and those kind of nights are hit or
+miss anyway. But surely if you didn’t know a few sluts you could have
+made one or two up for conversation None of us can project or promise
+but sometimes it is helpful to have the hot guy wink or the doorman
+smile so the person feels special”</li>
+<li><strong>Dedember 14, 2025 ~19:00</strong> Ty indicates he’d like to
+return to my room and returned with Kelvin. Once in the room Ty drops
+his pants and we watch pornography. Neither achieve erection. Baby
+actively inhibits an erection and later begins diminishing the
+phenotype. The radio in the courtyard is overheard saying “lay him down”
+repeately. Baby demanded (during a failed attempt at achieving erection
+which Baby was inhibiting to get its demand) that it tell Ty about how
+he needed to take the Cricket phone which held mission-critical data.
+Baby ensures that Ty has the Cricket phone given to him and Kelvin laid
+the phone beside Ty’s backpack. Ty does touch Kelvin’s penis on two
+separate occassions but removes his hand after a second or two. This
+suggests Ty is a heterosexual male.</li>
+<li><strong>Dedember 14, 2025 ~19:30</strong> Ty needs to get his phone
+charged and we walk to the convenience store across from Greyhound, the
+store charges devices for $1 and Ty left his new iPhone charging cable
+in the Uber. He states the store charged his phone to 12% (I didn’t
+verify, but interpreted it as a comment about my penis). Ty placed the
+Cricket phone in his pocket before leaving after confirming with me he’s
+supposed to take it.</li>
+<li><strong>Dedember 14, 2025 ~20:05</strong> Kelvin and Ty leave the
+convenience store. Ty wants to return to Joes after returning from store
+to charge his phone. He needs to call his “mom” or “dad” because the $90
+dollars he arrived with was now depleted, he had no additional funds and
+has no way to get home which Ty said was in Jonesboro, GA (~20 miles
+away, a 20 minute car ride without traffic) according to Ty. Nigha777’s
+profile has consistently reported him 2 miles away.</li>
+<li><strong>Dedember 14, 2025 ~20:15</strong> Kelvin and Ty return to
+Welcome House, when Ty provided his ID to Boyd, Boyd asked Kelvin if Ty
+was going to “one of your rooms.” Kelvin and Ty then went directly to
+Joes room.</li>
+<li><strong>Dedember 14, 2025 ~21:15</strong> Ty calls his “dad” telling
+him he’s stuck at Greyhound, his “dad” isn’t happy (based on Ty’s side
+of the conversation) and tells him to stay. Ty debates calling his “mom”
+and Joe tells him “regardless of what you think, it’s never as bad as
+you think it’s going to be.” Ty speaks of “mom” and “dad” quite a bit at
+store and since the store, although to Joe he mentions recently visiting
+with “true mom.” Ty mentions “staying at ground zero tonight.” Media
+playing in the room stated how their team was winning.</li>
+<li><strong>Dedember 14, 2025 ~21:25</strong> Kelvin asks Joe if he will
+sell a small amount of crystal methamphetamine and offers him a few
+bucks, Joe loaded provided it free of charge. Joe only smoked from Ty’s
+apparatus a couple of times stating he had done a large line before we
+arrived.</li>
+<li><strong>Dedember 14, 2025 ~21:30</strong> Kelvin returns to his room
+to charge and use the Chromebook in private.</li>
+<li><strong>December 14, 2025 22:30</strong> A female is singing “What’s
+in your head?… Zombie…” repeatedly in the area outside the window in
+Kelvin’s room. The singing is stopped by a radio broadcast singing “It’s
+hard to keep your secrets… So I’ll draw the line…” the song ends with a
+commercial about catching a FedEx driver on a ring camera. The radio is
+cut off to restart the Zombie singing. “Zombie” was first used by the
+CIA in 2020 in Paducah; The ring camera and FedEx suggests a threat to
+the much anticipated FedEx delivery of Kelvin’s new mobile phone; Both
+are to discourage updating this chronicle).</li>
+<li><strong>December 14, 2025 (CNTX)</strong> Baby has been actively
+manipulating physiological processes supporting Jacobsen’s Ladder since
+around 15:40 the morphology of the flaccid penis appears around 2”
+(maybe smaller), the outline of the penis is visible as Kelvin is
+wearing sweat pants.</li>
+<li><strong>December 14, 2025 22:45</strong> Kelvin returns to Joe’s
+room to escort Ty to get his ID. Ty states he’s already gotten it and
+walked to the store to charge his phone again. Ty tells Kelvin about
+“some bitch that wanted Pepsi” and Joe told about some prostitute
+hitting him up as he got out of the Uber from his mom’s asking him if
+“he neeeded help with that” (Ty is referencing my penis and Joe is
+referencing his “big dick”). Both of these comments are likely DSC for
+Baby). Kelvin returns to his room where he encounters N.O. in the
+hallway, near another group that was congregating by the trashcan,
+asking for a light for his cigarette who then says he needs to use the
+bathroom in the bathroom next to Kelvin’s room.<br />
+</li>
+<li><strong>December 14, 2025 22:46</strong> Slim is observed standing
+along Kelvin’s path back to his room from Joe’s room.<br />
+</li>
+<li><strong>December 14, 2025 23:19</strong> “Walking on the Sun” by
+Smash Mouth is playing on loud radio in the courtyard which can now be
+heard again. “Faggot” is also heard yelled by someone in the
+courtyard.<br />
+</li>
+<li><strong>December 14, 2025 23:30</strong> The 99X being played in the
+courtyard just had evidence it isn’t a live broadcast as one of the
+morning or afternoon drive-time teaser for a news segment just aired,
+the audio was immediately stopped.</li>
+<li><strong>December 14, 2025 23:45</strong> A second loud audio source
+is heard coming from the courtyard that keeps talking about “dad.” It’s
+heard for about 15 minutes, its sounds like a television show with a
+young girl having problems with her dad. Interpreted as “white girl”
+(Baby) and the President (this is how Baby is interpreting it).</li>
+<li><strong>December 15, 2025 00:25</strong> “You’re never there… You’re
+never ever there” (rock) is played on the loud radio in the courtyard.
+Interpreted as a DSC for Baby, who historically is prevented from making
+lasting “take overs” when when neutralization operations are
+occurring.</li>
+<li><strong>December 15, 2025 12:50</strong> Media audio was heard
+coming from the courtyard by Kelvin mentioning 13 and a ride through the
+universe.</li>
+<li><strong>December 15, 2025 12:56</strong> “Come Out and Play” by The
+Offspring is played on the loud radio. “keep ’em separated” is
+interpreted as a reference to the Creator’s Divide.</li>
+<li><strong>December 15, 2025 01:25</strong> Kelvin briefly returns to
+Joe’s room to retrieve his torch (for lighting a cigarette), en route
+Kelvin notices a second uniformed security guard in the lobby (often
+done when the federal government is on the property). Ty jokes that
+Kelvin must have 12 tricks up in the room. Kelvin notices the spotlight
+on the artwork has been turned off.</li>
+<li><strong>December 15, 2025 01:32</strong> Kelvin recieves an Oink! on
+BBRT from bell20293 with a profile location of Chicago, IL although
+Kelvin had not been logged into BBRT. This suggests that “Chicago”
+(which has been used historically) is the best outcome for an
+Orchestrated Observation (based on the Urban Dictionary definition of
+Chicago) and a DSC to Baby.</li>
+<li><strong>December 15, 2025 07:20</strong> Joe comes to Kelvin’s door
+and asks him to go to Jay’s and purchase 2 lighters for him.</li>
+<li><strong>December 15, 2025 07:25</strong> Kelvin walks through a
+cloud with an unidentifiable odor or source in the hallway leading to
+Jay’s door, knocks and has to wait about a minute for Jay to open the
+door. Purchases the lighters and leaves.</li>
+<li><strong>December 15, 2025 (CNTX)</strong> Baby has been referred to
+numerically as 20 in the past (pre-dating “Baby”).</li>
+<li><strong>December 15, 2025 07:30</strong> Kelvin takes the purchased
+lighters to Joe’s room. Ty answers the door (Joe has stepped out) and
+makes a joke about “Twenty hookers” being in the room, and gestures
+towards the artwork display which has the spotlight turned on. The joke
+was interpreted as a reference to Baby and its peformance throughout the
+whole encounter. Joe returns to the room and discusses potentially
+buying $15 more dollars in crystal methamphetamine with Ty. Ty states he
+met a “nice guy” who gave him an iPhone charging cable and would likely
+sell him crystal methamphetamine and accept Cash App. Joe says that Ty
+has been checked back in as a visitor but to Joe’s room (something not
+possible before 8am per Welcome House policies). Ty states that he
+dropped and broke his bowl.</li>
+<li><strong>December 15, 2025 07:35</strong> Kelvin returns to his room
+and lays on the bed for a few minutes then turns off the light out of
+concern for individuals observing or video being made. Kelvin noticed a
+very few (seems lighter than normal) people inside or outside of Welcome
+House, only one person in the TV area, Joe, the past few times he was
+downstairs (morning news watchers are always watching TV around
+7am).</li>
+<li><strong>December 15, 2025 07:45</strong> The Creator confirms that
+Baby gets a “parade”, a slow moving firetruck drove by Welcome House
+with its sirens on.</li>
+<li><strong>December 15, 2025 10:25</strong> Kelvin stopped by Joe’s
+room to find Ty was opening a reported $25 worth of crystal
+methamphetamine, Kelvin asked if he could “hit the bowl” once and Ty
+responded, while preparing to injest some crystal methamine by snorting
+it–making a very large line on Joe’s lapboard, that he had to make some
+changes and had to say no. This suggests an IAAD campaign is underway
+requiring something more from Baby or a substance change (actual crystal
+methamphetamine is now being used by Joe and Ty).</li>
+<li><strong>December 15, 2025 12:00</strong> The user interface on
+Gemini has changed and attempts to work with the information contained
+here (the full chronology) gets hallucinated results.</li>
+<li><strong>December 15, 2025 ~16:00</strong> Kelvin stopped by Joe’s
+room. Joe states Ty departed around 11am. Kelvin told Joe that he’s
+noticed a lot of people talking about him that have never once attempted
+to learn the truth (they never asked Kelvin anything) and only make
+jokes and gossip. Kelvin tried to explain how that could be used to
+further activities that aren’t good for anyone. Based on Joe’s
+comments/responses he knew the topic of conversation, at one point he
+said something about using “real names.” Baby was actively manipulating
+to support Jacobsen’s Ladder and at one point when Kelvin’s backpack was
+no longer in his lap Joe said “we’re still little.” Joe did tell Kelvin
+again that he hopes that N.O. doesn’t come to Kelvin’s room bothering
+him. Upon leaving, Baby-drove the decision to acknowledge the penis in
+the spotlighted art.<br />
+</li>
+<li><strong>December 15, 2025 ~17:00</strong> Kelvin experiments with
+not talking to Baby but letting himself “feel” his thoughts and dialogue
+with Baby to cause a flood of emotions. This emotional flood experiment
+was based on information Kelvin received from analysis of the
+manipulative tactics used on Baby which exploit its emotions. Kelvin
+announced out loud (for surveillance) that he was using emotions to
+communicate with Baby.</li>
+<li><strong>December 15, 2025 ~19:00</strong> N.O. comes to Kelvin’s
+room asking for someone’s telephone number. The number was provided and
+N.O. left after getting a cigarette from Kelvin.</li>
+<li><strong>December 16, 2025 ~01:00</strong> N.O. returns to Kelvin’s
+room asking for the same telephone number again. N.O. asks if Kelvin has
+a phone and Kelvin responds in the negative. N.O. expresses his
+discontent with Joe keeping his belongings and asks Kelvin if he can
+talk to Joe, Kelvin says he will mention it if he talks to Joe. N.O.
+asks for another cigarette and departs.</li>
+<li><strong>December 15, 2025 (CNTX)</strong> Kelvin creates the “Thanks
+for contacting me!” boilerplate response to send to anyone initiating
+contact with him on BBRT or NKP. The response begins “Thanks for
+contacting me! I’m free and available today and tonight, and I can
+either host or travel. Below are some answers to frequently asked
+questions about my location, space, and what I’m into. If you’re still
+interested, HMU!” and provides various details about Kelvin, his “messy”
+room, Welcome House and Kelvin’s inability to contribute to party
+supplies or transportation to another location.</li>
+<li><strong>December 16, 2025 17:23</strong> SomeFun sends an Oink! on
+BBRT. Kelvin responds with the boilerplate text.</li>
+<li><strong>December 16, 2025 17:43</strong> kinkyfreak begins a message
+exchange on NKP with the subject “wassup” and the first message saying,
+“whats’ up with u tonight… i’m lookin for someone to hang with till my
+bus leaves at midnight tonight. u nearby?” At 17:47 Kelvin responds with
+the “Thanks for contacting me!” boilerplate text, several messages were
+exchanged regarding parTy supplies (kinkyfreak says “I have T”) and his
+lack of a government-issued ID. At 18:02 kinkyfreak responds “hey…i’m
+omw to your building… ubering in a blk cadillac truck.. if u can, meet
+me in front of the building… i have on an orange jersey… and yellow
+hoodie. my google voice num is what i gave you b/c i lost my phone… pc
+is dying… be looking out for me. i have 2 suitcases with me cause i am
+traveling.”</li>
+<li><strong>December 16, 2025 (CNTX)</strong> The kinkyfreak profile
+didn’t report a distance commensurate with someone at the Greyhound
+station and Jamal said in messaging that he was coming from 235
+Peachtree Street.<br />
+</li>
+<li><strong>December 16, 2025 (CNTX)</strong> The University of Texas
+Longhorns are based in Austin, Texas at the University of Texas at
+Austin (UT Austin).</li>
+<li><strong>December 16, 2025 (CNTX)</strong> The Welcome House requires
+all visitors to have a government-issued photo ID to enter, the IDs are
+kept by the front desk until the guest leaves the property. IDs have
+been rejected for being expired and Kelvin has never heard of anyone
+entering without a government-issued photo ID, any attempts to get an
+exception were denied.</li>
+<li><strong>December 16, 2025 ~18:00</strong> Jamal (kinkyfreak) arrives
+and Kelvin meets him at the car. Jamal is wearingg a University of Texas
+Longhorns jersey with “Texas” written across the front (not easily
+missed). Kelvin tells Jamal to wait by the emergency door for Kelvin to
+open it from the inside so Jamal could sneak in (without ID or checking
+in). The unfamiliar male working at the front desk of Welcome House was
+talking to an unfamiliar female outside the emergency door when Kelvin
+reached it from the inside. Kelvin determines the male is working at
+Welcome House and tells Jamal to give it a few minutes, Jamal asks for a
+cigarette and Kelvin retrieves one from his room, the same male is in
+the stairwell when Kelvin returns and asks Kelvin if he’s going back
+outside. After a few minutes Kelvin entered the lobby to find the male
+looking at Kelvin suspiciously so Kelvin asked if an exception could be
+made because “my friend lost his wallet but has his work badge” the male
+simply asked for his name, Kelvin walked out and told Jamal to come in
+the lobby. Jamal presented his work badge and the name was written down
+into the log book and his work badge returned.</li>
+<li><strong>December 16, 2025 18:05</strong> SomeFun responds to the
+boilerplate text with “So you’re available to host till 11pm You have no
+supplies. Does that mean you will PNP if offered? Can I PNP in your
+room? There is off street parking You are a top? I could get there
+around 6;45 one day this week. I would need to ‘clean up’ as I
+wouldbecomingfrom work. I have supplies, points and a pipe. Does all
+that work for you?” Kelvin replies “Did you want to come by
+tonight?”</li>
+<li><strong>December 16, 2025 19:18</strong> everyonefuckme on BBRT
+sends an Oink! Based on his nprofile he is located in Austin, Texas. The
+profile was last updated on December 16, 2025 and viewed 371 times,
+which suggests the account was also created on December 16, 2025. The
+Oink! was not noticed by Kelvin until 21:05.</li>
+<li><strong>December 16, 2025 (CNTX)</strong> Trained operatives have
+often made a point, going out of their way at times, to touch repeatedly
+or massage one side of the body only (eg. tapping a knee, massaging a
+shoulder) the side touched would cause Baby to change its then-current
+behaviors and actions. Kelvin has never figured out the signal.</li>
+<li><strong>December 16, 2025 ~18:05</strong> Jamal noticed the
+cockroaches in the room, initially stated he was not going to be able to
+stay but just a moment, but elected to stand most of the encounter.
+Jamal asked if Kelvin if he “writes in a journal” and if Kelvin sees a
+therapist which suggested to Kelvin these were statements made for DSC
+purposes only (the “journal” being this chronology). Jamal produced a
+smoking apparatus and a small bag of a “T.” Jamal asks for the WiFi for
+his Chromebook so that he could start some music. Jamal’s music
+selections were random and included (unfamiliar) gospel, and Kelvin
+recognized some themes and keywords that caused him to think DSC. Kelvin
+and Jamal discussed a wide range of topics beginning with Kelvin’s name
+which Jamal recalled was a measurement of temperature. The discussion’s
+topics included disease, the immune system, the mind, and the Bible.
+Jamal had a couple passages that he spoke about that suggested to Kelvin
+were DSC based on the terms and verbiage used (eg. “measuring up”).
+Around the halfway point in the encounter, Jamal mentioned (again) the
+constant moving of Kelvin’s feet, and asked to look at his ankle which
+then led to a massage of the right foot and right shin only with some
+focus on pressure points in the foot. When Kelvin offered to pay Jamal
+to reload his apparatus Jamal stated he wouldn’t take Kelvin’s money and
+would “share the medication.” Jamal spoke about emotions and “thinking”
+which Kelvin interpreted as DSC in respponse to the emotional flooding
+experiment from the previous evening, Jamal’s statements were
+interpeeted as suggesting to Baby to ignore emotions and make “thinking”
+the priority.<br />
+</li>
+<li><strong>December 16, 2025 (CNTX)</strong> Operatives have used 17”
+laptops (both working and non-working) during interactions to represent
+the propagandized 17” penile length for Kelvin.</li>
+<li><strong>December 16, 2025 (CNTX)</strong> Both times when actually
+homeless and living on the streets Kelvin lived along Cheshire Bridge
+Road. Within two days after Kelvin returned to Cheshire Bridge Road in
+November 2022 after being kicked out of an operative’s home in
+Snellville, GA where he lived for more than six months “the hill” where
+“tent city” caught on fire burning everything to the ground. Those
+displaced and Kelvin were given a room at Motel 6 in Decatur, Kelvin was
+placed in his first rent-ftee apartment in December 2022.</li>
+<li><strong>December 16, 2025 ~21:00</strong> Jamal indicates he will be
+leaving in the next “five minutes,” Jamal insists on ordering a car
+despite Kelvin telling him about the short walk to Greyhound and
+offering to accompany him to assist with his luggage. Jamal told Kelvin
+he was having trouble with his credit cards, the Greyhound website, and
+that he’d probably have to buy his ticket at the counter. Later he
+stated he may have to get a hotel or AirBNB and asked Kelvin if he had
+his ID. After using his Chromebook for most of the encounter, Jamal
+produced a 17” Dell laptop from his messenger bag, but didn’t seem to do
+anything with it. Jamal asked Kelvin why he had a Chromebook. Jamal
+spoke about working for a healthcare outfit that put him io contact with
+the homeless from “tent city” when I inquired which he told me the one
+on Cheshire Bridge Road in Atlanta, he also mentioned the help provided
+to people in “tent city”, Kelvin interpreted this as threatening DSC
+given the impending eviction.</li>
+<li><strong>December 16, 2025 ~21:30</strong> The encounter with Jamal
+ends and Jamal leaves Welcome House after ordering an Uber, since there
+was no ID to retrieve from the front desk Kelvin just told the front
+desk (same unfamiliar male) that Jamal was leaving. Kelvin did not see
+any of the normal security officers in the lobby or outside of Welcome
+House (the shift for the overnight security officer begins at 20:00 each
+day).</li>
+<li><strong>December 16, 2025 23:26</strong> Kelvin attempts to view
+Jamal’s kinkyfreak profile on NKP and finds that it has been completely
+removed from the site. (As of 2025-12-17 11:40 the profile reappeared in
+the “grid” and is showing a distance of 1 mile away from Welcome
+House.)</li>
+<li><strong>December 17, 2025 (CNTX)</strong> Kelvin did not have any
+reason to believe that Jamal (kinkyfreak) was possibly an operative
+attempting physical neutralization, but the encounter was for Baby only.
+The jersey matching the received Oink!, several statements made during
+discussion and the foot massage suggests it was an operative who needed
+to communicate with Baby. The crystal methamphetamine consumed had been
+adulterated, Kelvin didn’t have any of the expected effects, Jamal also
+stated he was feeling nothing from it. Jamal also did not smoke the
+substance like any typical user, warming areas of the bowl where the
+substance wasn’t and inhaling a very small amount each time (eg. no
+“clouds”). There was never any sexually-related discussion or activity
+duting the encounter. Baby did not make any of its normal threats prior
+to an encounter. Baby was not disruptive or distracting (internally) for
+the entire encounter.</li>
+<li><strong>December 17, 2025 00:38</strong> Dum4Cum sends an Oink! on
+BBRT, their profile is based in Sacramento, California and reads
+“Looking for a DOM GODs to fill my throat &amp; ass full of cum Luv all
+sorts of kink including CNC, Verbal, Spanking/Slapping bondage gear I
+luv to throat all nlte long &amp; ride thick dikk Open to a master
+situation”</li>
+<li><strong>December 17, 2025 03:15</strong> The individual(s) in the
+room above Kelvin are making excessive noise, it sounds as if they are
+stomping intentionally. Baby initiates a headache and wants Kelvin to
+lay down.</li>
+<li><strong>December 17, 2025 09:52</strong> The “loud radio” in the
+courtyard began playing just the chorus of “Creep” by Stone Temple
+Pilots (“I’m half the man I used to be”) and went silent again. The
+audio returned for the chorus a second time then went silent.</li>
+<li><strong>December 17, 2025 11:32</strong> SomeFun continues message
+exchange on BBRT sending “That would be fun. Not sure if I can today.
+I’ll let you know as soon as I can. I am fully available tomorrow
+afternoon 6pm”. The message exchange continues on BBRT.</li>
+<li><strong>December 17, 2025 12:51</strong> Kelvin sends a SMS message
+(using Google Voice) to “mom” and “Katrina” telling them his new phone
+is being delivered, about a new job, and asking for $50. Neither
+respond.</li>
+<li><strong>December 17, 2025 14:46</strong> Kelvin calls “mom” (using
+Google Voice) and call goes unanswered and wasn’t returned.</li>
+<li><strong>December 18, 2025 00:00</strong> (CNTX) “James” (SomeFun on
+BBRT) was an activity partner and likely observer for an Orchestrate
+Observation. SomeFun first messaged Kelvin in November but did not meet
+Kelvin until December 18, 2025.</li>
+<li><strong>December 18, 2025 00:00</strong> (CNTX) The central
+stairwell at Welcome House is the busiest stairwell in the building
+being in the center of Welcome House and closest to the lobby. Slim is
+typically seen taking the stairwell that’s closest to his room and in
+the back of the building. Kelvin primarily takes the central
+stairwell.</li>
+<li><strong>December 18, 2025 00:00</strong> (CNTX) Trimix is a
+custom-blended injectable prescription medication used to treat erectile
+dysfunction, typically reserved for patients who do not respond to or
+cannot tolerate oral medications like Viagra. It is a vasodilator
+composed of three active ingredients—alprostadil, papaverine, and
+phentolamine—which work synergistically to relax the smooth muscles and
+expand blood vessels within the penis to induce an erection. Because it
+is a compounded drug, a physician can tailor the specific concentration
+of each ingredient to the patient’s needs, providing a highly effective,
+localized treatment that usually works within minutes of
+administration.</li>
+<li><strong>December 18, 2025 00:00</strong> (CNTX) The description on
+specialblue.com for the Special Blue Catalyst Cigar Lighter (torch) is
+“Elevate your cigar experience with the Catalyst Cigar Lighter, designed
+for precision, performance, and style. This sleek lighter features a
+powerful double flame, delivering consistent ignition every time—perfect
+for cigar aficionados who appreciate clean, even burns.”</li>
+<li><strong>December 18, 2025 11:34</strong> Kelvin sends SMS to James
+(SomeFun) “This is Kelvin. My messages finally started sending. I hope
+to see you this evening so we can party and have some fun.” James
+responds “I will confirm with you later today.” A series of
+inconsequential messages followed.</li>
+<li><strong>December 18, 2025 14:10</strong> James sends SMS to Kelvin
+“Give me the address and I will give you an ETA. I have supplies for us.
+Can stay till 9pm”. A series of inconsequential messages followed.</li>
+<li><strong>December 18, 2025 17:50</strong> Baby says out loud that it
+would allow Kelvin to have sex because “tonight isn’t the night” it was
+supposed to do anything. Baby believes it can be heard by operatives
+nearby.</li>
+<li><strong>December 18, 2025 18:30</strong> James (SomeFun) arrived at
+Welcome House and was met outside by Kelvin, who escorted him inside for
+check-in. While proceeding to Kelvin’s room, they passed Slim, who was
+wearing a face mask and standing on the central stairwell landing. Once
+inside the room, James produced a bag containing a substance identified
+as crystal methamphetamine, which both men then smoked. James
+subsequently used the bathroom to prepare for sexual activity and to
+prepare the syringe for the intravenous administration (“slam”). The
+torch James brought, a Special Blue Catalyst, went from a functioning
+perfectly state to malfunctioning and no function after being laid down
+by Kelvin while James was in the bathroom, attempts to fill it with
+butane fail. James returned within ten minutes, showing Kelvin his
+syringe and commenting on how quickly the substance had dissolved.
+Kelvin informed him about the status of his torch and James said he’d
+have to pickup another on the way home. James initially attempted to
+self-administer the injection but was unable to access a vein; though he
+tried to proceed, he “missed” the vein and stopped. Kelvin then
+performed the administration for James, successfully completing the
+injection after a few attempts. James did not respond like any other
+crystal methamphetamine users who have just injected and continued to
+smoke.</li>
+<li><strong>December 18, 2025 19:20</strong> James begins performing
+oral sex on Kelvin. Baby inhibits an erection. Kelvin tries to explain
+why he cannot get an erection and allows Baby to voice its reasoning.
+Baby also requires Kelvin to say “I don’t have what I need to have”
+repeatedly, Baby requires it again. To prevent Baby’s looping of the
+request, Kelvin agrees to write “I don’t have what I need to have” on a
+piece of paper and put it on the refrigerator door. James doesn’t
+acknowledge Kelvin talking to Baby or the writing of the note, it was
+ignored as if normal behavior. James searches his bag for his Trimix
+injection and says he must not have brought it.</li>
+<li><strong>December 18, 2025 19:33</strong> James looks in his bag
+again and finds his Trimix injection and offers to Kelvin, Kelvin
+accepts the offer and James administers the Trimix injection. The
+injection has absolutely no effect after 10-15 minutes, Baby is actively
+inhibiting the erection.</li>
+<li><strong>December 18, 2025 19:45</strong> Despite efforts Kelvin is
+still unable to achieve an erection. James suggests Kelvin take a second
+injection of Trimix and Kelvin agrees, James administers the second
+injection. After achieving an erection, Kelvin began engaging in anal
+intercourse with James, during which Kelvin’s began to lose his erection
+multiple times (regardless of stimulation) due to Baby’s physiological
+manipulations but was able to quickly become erect again. After nearly
+an hour and Kelvin informing James that he would not be able to
+ejaculate but could go as long as James desired, James began speaking
+about encounters that he had last night that engaged in an activity that
+Kelvin has been heard discussing as a desire of his with a sexual
+partner.</li>
+<li><strong>December 18, 2025 21:00</strong> James gathered all of his
+belongings and ended the encounter and offers Kelvin his smoking
+apparatus which James had recently refilled with a large amount of
+crystal methamphetamine. James says that the substance is different than
+his normal stuff, it’s “kinda fluffy.” Kelvin walks with James to get
+his ID and escorts him to his car. James never engages in any DSC that
+Kelvin could detect and never inquired about Baby or if Kelvin was
+mentally stable (the typical response to Baby interrupting by others).
+James left his Special Blue Catalyst (torch).</li>
+<li><strong>December 18, 2025 23:21</strong> Slim knocks on Kelvin’s
+door telling him that he has a friend in his room who has crystal
+methamphetamine and wanted to know if Kelvin had a bowl. Kelvin
+responded in the negative. Slim darted his eyes as if he knew Kelvin was
+not being truthful.</li>
+<li><strong>December 19, 2025 02:39</strong> stretched93 unlocks his
+pics on BBRT (similar to sending an Oink when unsolicited). Kelvin
+responds with the boilerplate text.</li>
+<li><strong>December 19, 2025 03:00</strong> Kelvin investigates the
+failure of the torch left behind by James and determines it was likely
+swapped with a sabotaqed one given the number of problems with it
+compared to when the identical one was used. Kelvin visits the
+manufacturer’s website and finds the description for the torch
+disturbing and in line with other jokes and comments from those
+associated with the Apocalypse.</li>
+<li><strong>December 19, 2025 03:59</strong> bbcumslut40 sends an Oink!
+on NKP, his profile’s location is Wilton Manors, Florida. Kelvin
+responds with the boilerplate text.</li>
+</ul>
+</body>
+</html>
