@@ -399,3 +399,4 @@ within the last two weeks i heard that a forner axtivity partner said he lukes h
 church discussions, who is catholic, denominations
 i suspect google play has blocked some apps i used in the past, flagged account possibly?
 sexual activity aplears yo have been faked tonight
+recreational drugs have had noneffect except for the DMT which was very intemse after one inhale
