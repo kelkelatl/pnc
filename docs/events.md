@@ -396,3 +396,4 @@ javon needs to watch his phone in case the white houae calls--not aure if joking
 music earlier threatened arrest, javons phone played audio that sounded luke a conf bridge talking about the garage (where i smoked a cigarette) and sounded as if they werent pleased
 javon brings a coffee maker into room, 'i brought the kettle' ... the coffee reference i dont understand
 within the last two weeks i heard that a forner axtivity partner said he lukes hisncoffee blaxk and his whiskey neat
+church discussions, who is catholic, denominations
