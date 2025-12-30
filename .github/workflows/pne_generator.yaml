@@ -1,9 +1,9 @@
 name: update pne.html 
 
 on:
-  push:
-    paths:
-      - 'docs/events.md' # Only runs when events.md is modified
+#  push:
+#    paths:
+#      - 'docs/events.md' # Only runs when events.md is modified
   workflow_dispatch: # Allows you to run this manually
 
 jobs:
