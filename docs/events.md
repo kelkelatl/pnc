@@ -370,3 +370,13 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 29, 2025 15:45** An acquaintance whom I haven't seen in a long time (months) encountered me at the library asking about Tina, we returned to Welcome House and acquired some. I was under the impression he had moved away from Welcome House (212). He gave me a small amount of Tina and $5.
 * **December 30, 2025 12:03** A former activity partner and suspected operative contacted me asking if I'd like to join him and a friend in Buckhead. Quick conversation and departed Welcome House.
 * **December 30, 2025 01:00** (note) He is meeting me at Arts Center station.
+Carl
+Matt - 0233
+coffee jokes
+streaming music - same singer for a while, rapping, lyrics very topical. '666' on your forehead
+Jesus Christ, etc since car
+16, scooter, DSC
+16, scooter, DSC
+God bless you, etc
+Zoom.... Prayer requests chatroom
+
