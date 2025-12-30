@@ -390,3 +390,4 @@ gabriel arrives
 fire safety reasons
 gab: amazon bought 12 maybr 15 pair
 unk: more like 4
+baby knelt tovwash his face (nature of our kind - vandaveer)
