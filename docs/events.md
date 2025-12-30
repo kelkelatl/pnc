@@ -370,46 +370,6 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **December 29, 2025 15:45** An acquaintance whom I haven't seen in a long time (months) encountered me at the library asking about Tina, we returned to Welcome House and acquired some. I was under the impression he had moved away from Welcome House (212). He gave me a small amount of Tina and $5.
 * **December 30, 2025 00:03** A former activity partner and suspected operative contacted me asking if I'd like to join him and a friend in Buckhead. Quick conversation and departed Welcome House.
 * **December 30, 2025 00:00** (CNTX) Javon and Kelvin met several months ago at an encounter with a gay couple in Doraville. Following that encounter Javon invited Kelvin over to his house to join him and a friend, that encounter had a fourth person join via Zoom call who seemed interested in only Kelvin and Javon seemed focused on getting Kelvin naked in front of the man on Zoom. Kelvin has never successfully engaged in sexual activity in any prior encounter where Javon was present due to inhibited erections or distractions/intrusions, both due to Baby.
-* **December 30, 2025 01:00** Javon and his friend Carl picked Kelvin up at Arts Center station then returned to Javon’s townhouse at 216 Semel Cir NW. On the way to the townhouse Javon mentioned that a friend was on the way over. Upon arriving the group went to Javon's bedroom where Kelvin sat on the futon and Javon and Carl were in his bed. Carl was completely clothed while Javon took off his clothes upon returning to the bedroom as and lay in the bed naked. Javon shared some crystal methamphetamine in a smoking apparatus and also offered some DMT. Javon had pornography playing on the television and started streaming music from his iPhone. For a while the music played featured the same male vocalist/rapper whose lyrics had themes that were religious in nature (not praising God), current day topics for Kelvin, providing a narrative of the encounter, or taunting or threatening Kelvin. One of the partially heard lyrics said “666 on your forehead” (Revelation 13). Several times throughout the night the lyrics talked about a woman and were relevant to the encounter or current events (involving Kelvin) which Kelvin interpreted as the woman (which has been theorized that Kelvin is the fulfillment counterpart) in Revelation 12. Other themes heard in the lyrics included: Jesus Christ, 16, scooters/bicycles. Throughout the night Javon continuously used phrases mentioning or praising God or Jesus (Kelvin didn't consider the praise legitimate or sincere), additionally Javon introduced religion individuals faith, and church attendance into the conversation, in no previous encounter did Javon do such nor has he ever given indication of being a believer in a higher power. Kelvin also noticed an active Zoom Room/Chat called “Prayer Requests.”
+* **December 1, 2025 00:00** (CNTX) Throughout December 2025 Kelvin has heard multiple operatives use the term “coffee” around him seemingly about him. Kelvin also learned that a previous activity partner likes his “coffee black and his whiskey neat.” 
+* **December 30, 2025 01:00** Javon and his friend Carl picked up Kelvin at Arts Center station then returned to Javon’s townhouse at 216 Semel Cir NW; on the way to the townhouse Javon mentioned that a friend was on the way over. Upon arriving, the group went to Javon's bedroom where Kelvin sat on the futon and Javon and Carl were in his bed. Carl was completely clothed while Javon took off his clothes upon returning to the bedroom and lay in the bed naked. Javon shared some crystal methamphetamine in a smoking apparatus and also offered some DMT. Javon had pornography playing on the television and started streaming music from his iPhone. For a while the music played featured the same male vocalist/rapper whose lyrics had themes that were religious in nature (not praising God), current day topics for Kelvin, providing a narrative of the encounter, or taunting or threatening Kelvin; one of the partially heard lyrics said “666 on your forehead” (Revelation 13); several times throughout the night the lyrics talked about a woman and were relevant to the encounter or current events (involving Kelvin) which Kelvin interpreted as the woman (which has been theorized that Kelvin is the fulfillment counterpart) in Revelation 12; other themes heard in the lyrics included: Jesus Christ, 16, scooters/bicycles. Throughout the night Javon continuously used phrases mentioning or praising God or Jesus (Kelvin didn't consider the praise legitimate or sincere), additionally Javon introduced religion, individuals' faith, and church attendance into the conversation; in no previous encounter did Javon do such nor has he ever given indication of being a believer in a higher power. Kelvin also noticed an active Zoom Room/Chat called “Prayer Requests.” Javon states at one point how he is moving soon, he also makes an irrelevant statement about “fire safety reasons.” Javon brings a coffee kettle into the bedroom announcing “I brought the kettle” and puts it on his desk and never does anything else with it. After resuming streaming music a woman is heard on Javon's phone speaking as if on a conference call discussing ongoing activities within the encounter and townhouse, she mentions Kelvin's presence in the garage (where he went to smoke a cigarette) and seemed to be frustrated with developments (Kelvin could not ascertain which), Javon was high and his reactions slowed to mute the call. Throughout the evening comments are heard (from everyone attending) that can only be interpreted as references to Kelvin’s penis size although never erect and actively being inhibited and its morphology manipulated (diminished to 2-4” estimated flaccid) by Baby. Additionally, Kelvin notices that the sexual activity within the bedroom appears to be faked (eg. Anal intercourse with a flaccid penis.) Javon mentions on two separate occasions that he anticipates or expects the White House to call him. Kelvin notices that with the exception of the DMT, the recreational drugs consumed had little or were largely non-effective. At 02:30 Matt arrives and joins the others in the bedroom sitting on the opposite side of the futon from Kelvin. Upon his arrival Matt makes multiple comments about “coffee.” Matt remains dressed throughout his stay. Matt does not engage in or discuss sex, however makes repeated comments about the weather and the wind chill being “11” or “13” with emphasis on the number. Matt also repeatedly discusses his phone not charging although Kelvin was able to charge with the same adapter, Kelvin interpreted it as a reference to Baby. At 04:15 Derrick arrives, upon his entry he says “Chicago.” Around 05:00 Gabriel arrives. Gabriel discusses with Derrick how he “purchased 12 maybe 15 pair from Amazon” and Derrick responds “more like four.” Gabriel also says while others are preparing a syringe for an injection “1.25 but more like 7.5” which Kelvin interpreted as “12.5 inches but more like 7.5 inches.” Gabriel performs oral sex on Kelvin's flaccid penis after saying how he enjoys it. At 8:15 Eric arrived. Eric also performs oral sex on Kelvin's flaccid penis. Baby sought praise for his efforts at manipulating the penis’s morphology and phenotype and was happy with the fact that Gabriel acknowledged that it was keeping the penis flaccid.
 
-Carl
-Matt - 0233
-coffee jokes
-streaming music - same singer for a while, rapping, lyrics very topical. '666' on your forehead
-Jesus Christ, etc since car
-16, scooter, DSC
-16, scooter, DSC
-God bless you, etc
-Zoom.... Prayer requests chatroom
-
-Unknkwn arrives 417
-Unknkwn arrives 417
-Chicago
-Chicago
-wind chill 11...13
-gabriel 3n route
-gabriel arrives
-fire safety reasons
-gab: amazon bought 12 maybr 15 pair
-unk: more like 4
-baby knelt tovwash his face (nature of our kind - vandaveer)
-baby knelt tovwash his face (nature of our kind - vandaveer) -- active phenotype manipulation, erection inhibiting, supermodel. 2-4 seen
-javon needs to watch his phone in case the white houae calls--not aure if joking, others agreed
-music earlier threatened arrest, javons phone played audio that sounded luke a conf bridge talking about the garage (where i smoked a cigarette) and sounded as if they werent pleased
-javon brings a coffee maker into room, 'i brought the kettle' ... the coffee reference i dont understand
-within the last two weeks i heard that a forner axtivity partner said he lukes hisncoffee blaxk and his whiskey neat
-church discussions, who is catholic, denominations
-i suspect google play has blocked some apps i used in the past, flagged account possibly?
-sexual activity aplears yo have been faked tonight
-recreational drugs have had noneffect except for the DMT which was very intemse after one inhale
-repeated mentions of a non-functioning phone charger (Baby is the phone, its been charged in varioys ways in the past
-florida
-add new texting parrners and conversations
-news feed has several obviously fake news stories (chrome new tab)
-
-
-2025-12-30 07:03:15 - g: 1.25 but more like 7.5
-2025-12-30 07:04:18 - Matt departs to check on his dog
-2025-12-30 07:09:37 - final prompt test with printf
-2025-12-30 08:12:27 - Eric arrived.
-2025-12-30 08:13:21 - Gabriel performsd oral sex on me, Babg inhibited an erection amd needeed credit.
