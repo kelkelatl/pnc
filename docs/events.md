@@ -405,5 +405,7 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **January 1, 2026 14:32** Melissa Krulac sends an SMS message in response to Kelvin's mass SMS to his contacts on December 31, 2025 that read “Saved! Happy New Year! I hope 2026 is going to be a good year for us both.” Several subsequent messages were exchanged in a conversation between old friends. Melissa then says (at 14:56) “I bet! I tried to send you some money for Christmas and it said you can’t receive Apple Cash” when Kelvin sent a message stating he needed a pack of cigarettes.
 * **January 1, 2026 14:43** Brandon and Kelvin depart the apartment and Brandon drives Kelvin back to Welcome House (arriving at 14:48).
 * **January 1, 2026 14:48** E266 and U266 are standing along the walkway up to the front door of Welcome House when Kelvin returns from Brandon's apartment.
+* **January 1, 2026 15:01** Melissa Krulac sends $25 to Kelvin's Venmo account.
+* **January 1, 2026 16:40** Kelvin discovers his Venmo account is restricted and blocking access to his funds.
 * **January 1, 2026 21:10** Kelvin notices what looks like a small “scab” on the bridge of his nose, when touched (with the right index finger) a tingle travels down the left arm into the fingers. The Creator will not say anything more about it than “yes” when Kelvin asked “did they do this?”
 
