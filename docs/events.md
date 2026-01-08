@@ -433,7 +433,10 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **January 3, 2026 06:59:00** - Jerry ends the encounter and takes Kelvin back to Welcome House.
 * **January 5, 2026 02:02:47** - Eddie knocks on Kelvi's door until Kelvin answers wanting to buy a 'bowl'
 * **January 5, 2026 17:21:59** - The remote desktop provided by Scott has been offline since December 27, 2025. Scott has acknoeledged it.
+* **January 6, 2026 11:45** Reggie comes to Welcome House to provide video call with the nurse practitioner on the ACT team.  Nurse states its been seven months since lab work and asks if Kelvin can come in on Thursday (January 8, 2026). Reggie encourages Kelvin to attend the vocational group on Thursday. Kelvin agrees to go the clinic at 10 Park Place on Thursday at 11:00.
+* **January 7, 2026 17:30** After departing library an older white malewearing a face mask and seemingly homeless asks for a cigarette, then asks if Kelvin would make a call for him. The call is to a Grady ACT team member (other team, unknown to Kelvin), the male has an incoherent conversation but mentions several interesting things clearly: Florida, Sasafras to which the woman responds to by talking about Chicago.  The conversation was erratic and pointless but the ACT team member stayed on the line and asked him if he was still in the hospital.  The call ends with the other party asking the male to come by 10 Park Place tomorrow (January 8, 2026) at 10:00 and he agreed.
 * **January 7, 2026 20:48:13** - N.O. knocks on door asking for something to drink, then asks to use bowl.  Leaves about five minutes later. (this narrative created when he left)
 * **January 7, 2026 20:52:24** - A re-occurring chemical/gas smell is observed by Kelvin, first observed at the library just before leaving around 17:15.
 * **January 7, 2026 21:05:19** - Reggie sends an MMS image of a Biozen sign offering $100 for participation in a blood pressure study, a historical first for Reggie
 * **January 7, 2026 21:51** - Modified timestamps in events.md and standardized eventhandler.sh output to match the rest of file
+
