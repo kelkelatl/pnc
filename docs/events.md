@@ -437,3 +437,4 @@ This process is depicted as functioning only when Baby enters a condition of hei
 2026-01-05 17:21:59 - The remote desktop provided by Scott has been offline since December 27, 2025. Scott has acknoeledged it.
 2026-01-07 20:48:13 - N.O. knocks on door asking for something to drink, then asks to use bowl.  Leaves about five minutes later. (this narrative created when he left)
 2026-01-07 20:52:24 - A re-occurring chemical/gas smell is observed by Kelvin, first observed at the library just before leaving around 17:15.
+2026-01-07 21:05:19 - Reggie sends an MMS image of a Biozen sign offering 00 for participation in a blood pressure study, a historical first for Reggie
