@@ -458,3 +458,4 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **January 12, 2026 20:11** - Baby insists on telling anyone listening that it has done what it was told to do.
 * **January 12, 2026 20:17** - Baby insists that Kelvin says, 'I dont have what Im supposed to have' (referring to the penis)
 * **January 12, 2026 21:46** - The Creator has informed Kelvin that CIA personnel are entering his room cloaked, simultaneously Kelvin heard the locusts
+* **January 12, 2026 22:04** - Kelvin went to Biozen for the blood pressure study (arriving around 13:10).  Biozen has developed a new product, the study required having the blood pressure measured using the new handheld product followed by the blood pressure being taken by a nurse using a traditional cuff and stethoscope.  The process was repeated about five times. The study lasted about 30 minutes in total and Kelvin was compensated 00 (in two Visa debit cards).
