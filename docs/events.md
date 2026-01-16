@@ -468,3 +468,4 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **January 14, 2026 04:27** Martin calls Kelvin, Kelvin told him to hold on while he checked train schedule Martin hung up and has been unreachable since.
 * **January 14, 2026 13:27** "Katrina" responds to text message sent last week, just moments after Kelvin spoke of his mother and sister being impersonated in his room. (at 13:43) Kelvin asked for $50, "Katrina" sent $100.
 * **January 14, 2026 13:55** - Joe just attempted to eliminate me.
+* **January 16, 2026  1:08** - Kelvin poisoned by cupcakes given to him by Daniel Quinonez on Thursday January 15 along with several other food items that were not solicited by Kelvin
