@@ -470,3 +470,4 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **January 14, 2026 13:55** - Joe just attempted to eliminate me.
 * **January 16, 2026  1:08** - Kelvin poisoned by cupcakes given to him by Daniel Quinonez on Thursday January 15 along with several other food items that were not solicited by Kelvin
 * **January 17, 2026 14:02** - ~1:15  Daniel knocks on door waking Kelvin seeking  or a cig. Simultaneously, Joe texts offering weed.
+* **January 17, 2026 14:02** - Baby insists Kelvin doesnt leave Welcome House
