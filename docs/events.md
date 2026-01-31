@@ -509,4 +509,4 @@ This process is depicted as functioning only when Baby enters a condition of hei
 - execution of Nightfalls likely within the next 12 hours based on current events and prophecy
 - Lots of movement in rhe room above Joes, sounds as if heavy objects are being moved into position
 - Joe mentions DeKalb Crisis multiple times
-
+- Joe says that I have been ingestkng cyanide for the past week.  Thr 5Points franks.
