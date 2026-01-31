@@ -485,3 +485,19 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **January 22, 2026 15:54** - Kelvin has another Slim sighting in the hallway where Kelvin's room is. Slim is seen answering someone else's door.
 * **January 22, 2026 16:54** - Hookup encounter but without any of the typical pre-encounter discussions his screen name is earnhiskeep. He arrived but said he couldnt stay long. In the room he began to load his bowl with crystal methamphetamine and stated  he wanted to blow smoke on Kelvin's penis, Kelvin declined stating that his penis was the focus of too much  attention today. Earnhiskeep then gave Kelvin a shard and left leaving Kelvin a cigarette. The crystal meth and cigarette were both toxic.
 * **January 22, 2026 18:20** - Tha code used 7 is for morphology reductions, 6 (600 on coat, 666 phone number, 6 spoken all around) is for the removal of the penis on the body of Kelvin Eugene Williams
+* **January 30, 2026 12:00** Following are in-progress notes:
+- Diane texrs and inform me that the marshalls performed the eviction
+- Natasha gave me ten minutes to get my property, she kept key to room
+- Asked Sam and Matrina for help they reaponded 20 and 100$
+- Joe invites me to stay with him
+- "Mom" responds "SORRY!" to news amd requezt for help
+- Properry retriwved from Welcome House (sleeping bag, comforter, and clothing) was taken to libraru, left outside (like othera with more than one bag
+- Property stolen from outside library in less than 30 minutes
+- Videos by Joe are DSC and possibly veiled threats
+- Joe has made threats
+- E moving in new matress with white guy fi3at seen in Irv8ngs office todayy
+- chandler wifi ceased workikg
+- Jay sekking crystal methamphetamine when I enter to purchase lughter, his xlient suggesta I buy some.
+- Lots of "woman" and dick talk on televosiom sjows, definitw DAC/threats
+- Eddite Williamsstopped by
+- 
