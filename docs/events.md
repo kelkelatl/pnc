@@ -488,7 +488,9 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **January 30, 2026 12:00** Following are in-progress notes:
 - Diane texrs and inform me that the marshalls performed the eviction
 - Natasha gave me ten minutes to get my property, she kept key to room
-- Asked Sam and Katrina for help they reaponded 20 and 100$ (controlled enablement grant)
+- Asked Sam and Katrina for help they reaponded 20 and 100$ (controlled enablement grant), neithet responded untik after Diane let me kniw abouy the eviction
+. Obtaining money from Katrina waa too easy.
+- Reggie recommends checking into DeKalb Crisis
 - Joe invites me to stay with him
 - "Mom" responds "SORRY!" to news amd requezt for help
 - Properry retriwved from Welcome House (sleeping bag, comforter, and clothing) was taken to libraru, left outside (like othera with more than one bag
@@ -505,4 +507,6 @@ This process is depicted as functioning only when Baby enters a condition of hei
 - Welcome House appears to be changing over
 - No discussiom on evoctions, I was only person evicted likely ehich was for an orchestration
 - execution of Nightfalls likely within the next 12 hours based on current events and prophecy
+- Lots of movement in rhe room above Joes, sounds as if heavy objects are being moved into position
+- Joe mentions DeKalb Crisis multiple times
 
