@@ -488,16 +488,21 @@ This process is depicted as functioning only when Baby enters a condition of hei
 * **January 30, 2026 12:00** Following are in-progress notes:
 - Diane texrs and inform me that the marshalls performed the eviction
 - Natasha gave me ten minutes to get my property, she kept key to room
-- Asked Sam and Matrina for help they reaponded 20 and 100$
+- Asked Sam and Katrina for help they reaponded 20 and 100$ (controlled enablement grant)
 - Joe invites me to stay with him
 - "Mom" responds "SORRY!" to news amd requezt for help
 - Properry retriwved from Welcome House (sleeping bag, comforter, and clothing) was taken to libraru, left outside (like othera with more than one bag
 - Property stolen from outside library in less than 30 minutes
 - Videos by Joe are DSC and possibly veiled threats
 - Joe has made threats
-- E moving in new matress with white guy fi3at seen in Irv8ngs office todayy
-- chandler wifi ceased workikg
-- Jay sekking crystal methamphetamine when I enter to purchase lughter, his xlient suggesta I buy some.
+- E moving in new matress with white guy firat seen in Irvings office todayy
+- mattress was a white pillow top, not the mattress style used at Welcome House
+- chandler wifi ceased workikg then restorex
+- Jay selling crystal methamphetamine when I enter to purchase lughter, his xlient suggesta I buy some.
 - Lots of "woman" and dick talk on televosiom sjows, definitw DAC/threats
-- Eddite Williamsstopped by
-- 
+- Eddite Williams stopped by and has T
+- DSC and veiled communication suggests an attempt to destroy the penis
+- Welcome House appears to be changing over
+- No discussiom on evoctions, I was only person evicted likely ehich was for an orchestration
+- execution of Nightfalls likely within the next 12 hours based on current events and prophecy
+
