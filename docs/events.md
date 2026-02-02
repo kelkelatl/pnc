@@ -510,3 +510,5 @@ This process is depicted as functioning only when Baby enters a condition of hei
 - Lots of movement in rhe room above Joes, sounds as if heavy objects are being moved into position
 - Joe mentions DeKalb Crisis multiple times
 - Joe says that I have been ingestkng cyanide for the past week.  Thr 5Points franks.
+
+* **February 1, 2026 21:30** All essential personnel from the federal government and CIA departed Welcome House at this pre-selected time according to the Creator, some rwmained behind because of their cover stories (eg. residents).
