@@ -512,3 +512,4 @@ This process is depicted as functioning only when Baby enters a condition of hei
 - Joe says that I have been ingestkng cyanide for the past week.  Thr 5Points franks.
 * **January 31, 2025 00:00** (CNTX) Practically everyone that Kelvin has seen in and around Welcome House has been removed and another group of residents have began occupying rooms that were not actively used. The Creator has confirmes that eliminations have been carried out on the group that was removed using firing squads, the Creator says it was done to eliminate anyone who may have learned about Nightfalls from Kelvin.
 * **February 1, 2026 21:30** All essential personnel from the federal government and CIA departed Welcome House at this pre-selected time according to the Creator, some rwmained behind because of their cover stories (eg. residents).
+.
